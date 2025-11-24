@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "Button Usage and Styling",
+    "content": "Buttons are used for actions. They can be styled with various props, including `size`, `radius`, `color`, and `variant` (solid, bordered, light, flat, faded, shadow, ghost).",
+    "keywords": ["button", "usage", "styling", "variants", "colors", "size"]
+  },
+  {
+    "topic": "Button States (Loading & Disabled)",
+    "content": "A button can be set to a disabled state with the `isDisabled` prop. A loading state can be activated with `isLoading`, which displays a spinner. The spinner itself can be a custom component.",
+    "keywords": ["button", "loading", "isloading", "spinner", "disabled", "isdisabled"]
+  },
+  {
+    "topic": "Button with Icons",
+    "content": "Icons can be added to the start or end of a button using the `startContent` and `endContent` props. To create a button that only contains an icon, use the `isIconOnly` prop.",
+    "keywords": ["button", "icons", "icon only", "startContent", "endContent"]
+  },
+  {
+    "topic": "ButtonGroup",
+    "content": "The `ButtonGroup` component is used to group multiple buttons together. You can apply props like `isDisabled` to the group to affect all buttons within it.",
+    "keywords": ["buttongroup", "group", "button container", "disabled group"]
+  },
+  {
+    "topic": "Button Customization and Hooks",
+    "content": "For advanced customization, you can use the `useButton` hook to create your own button component from scratch, while retaining the core logic and accessibility features.",
+    "keywords": ["button", "customization", "hook", "usebutton"]
+  },
+  {
+    "topic": "Button Accessibility",
+    "content": "The Button component has a `role` of `button` and supports keyboard events (Space, Enter), focus management, and press states for full accessibility.",
+    "keywords": ["button", "accessibility", "a11y", "keyboard", "focus"]
+  }
+]

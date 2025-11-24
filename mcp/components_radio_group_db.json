@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "RadioGroup Usage",
+    "content": "A `RadioGroup` allows users to select a single option from a list. It is composed of a `RadioGroup` container and multiple `Radio` components. The orientation can be `vertical` or `horizontal`.",
+    "keywords": ["radiogroup", "radio", "usage", "single selection", "options"]
+  },
+  {
+    "topic": "RadioGroup Controlled State",
+    "content": "A RadioGroup can be a controlled component. Use the `value` prop to set the selected value and the `onValueChange` event to handle changes.",
+    "keywords": ["radiogroup", "controlled", "state", "value", "onvaluechange"]
+  },
+  {
+    "topic": "RadioGroup with Descriptions and Validation",
+    "content": "You can add a `description` to both the group and individual `Radio` items. The group supports validation with the `isInvalid` and `errorMessage` props.",
+    "keywords": ["radiogroup", "description", "validation", "isinvalid", "errormessage"]
+  },
+  {
+    "topic": "Radio Slots",
+    "content": "`RadioGroup` has slots like `base`, `wrapper`, and `label`. `Radio` has slots like `base`, `wrapper`, `control` (the circle), and `label`.",
+    "keywords": ["radiogroup", "radio", "slots", "classnames", "style slots"]
+  },
+  {
+    "topic": "Radio Accessibility",
+    "content": "RadioGroup is fully accessible, built on native `<input type=\"radio\">` elements, with support for keyboard navigation (arrow keys).",
+    "keywords": ["radiogroup", "accessibility", "a11y", "keyboard", "input"]
+  }
+]

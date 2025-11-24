@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Link Usage and Styling",
+    "content": "A `Link` component renders a semantic `<a>` tag. It can be styled with `size`, `color`, and `underline` props. It also supports a `isDisabled` state.",
+    "keywords": ["link", "usage", "styling", "color", "underline", "disabled"]
+  },
+  {
+    "topic": "External Links",
+    "content": "To create a link that opens in a new tab with `target='_blank'` and `rel='noopener noreferrer'`, use the `isExternal` prop. This will also show an external link icon by default.",
+    "keywords": ["link", "external", "target blank", "isexternal"]
+  },
+  {
+    "topic": "Block Link",
+    "content": "By setting the `isBlock` prop, the link will be rendered as a block-level element with a hover effect, making a larger area clickable.",
+    "keywords": ["link", "block", "isblock", "hover effect"]
+  },
+  {
+    "topic": "Link with Routing",
+    "content": "The `Link` component is designed to work seamlessly with client-side routers like Next.js and React Router. See the main Routing guide for setup.",
+    "keywords": ["link", "routing", "next.js", "react router"]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "Alert Usage",
+    "content": "Alerts are temporary notifications for feedback. They can contain a `title`, `description`, and an `icon`. Key features include different colors and variants.",
+    "keywords": ["alert", "usage", "notification", "feedback"]
+  },
+  {
+    "topic": "Alert Styling (Colors, Variants, Radius)",
+    "content": "Alerts come with 6 color variants (`default`, `primary`, `secondary`, `success`, `warning`, `danger`), 4 style `variants` (solid, bordered, flat, faded), and 5 `radius` options (none, sm, md, lg, full).",
+    "keywords": ["alert", "styling", "colors", "variants", "radius"]
+  },
+  {
+    "topic": "Alert Icon Customization",
+    "content": "By default, an icon is shown based on the color. You can provide a custom `icon`, hide it completely (`hideIcon`), or hide just its wrapper (`hideIconWrapper`).",
+    "keywords": ["alert", "icon", "custom icon", "hide icon"]
+  },
+  {
+    "topic": "Alert with Actions",
+    "content": "You can add actionable elements, like buttons or links, to an alert by using the `endContent` prop.",
+    "keywords": ["alert", "action", "endcontent", "button"]
+  },
+  {
+    "topic": "Alert Controlled Visibility",
+    "content": "You can control the alert's visibility programmatically by using the `isVisible` prop and the `onVisibleChange` event handler.",
+    "keywords": ["alert", "controlled", "visibility", "isvisible", "show", "hide"]
+  },
+  {
+    "topic": "Alert Slots",
+    "content": "Key stylable slots for Alert include `base`, `title`, `description`, `closeButton`, and `alertIcon`.",
+    "keywords": ["alert", "slots", "classnames", "style slots"]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "RangeCalendar Usage",
+    "content": "A `RangeCalendar` allows users to select a date range. It can be controlled (`value`, `onChange`) or uncontrolled (`defaultValue`). It uses objects from `@internationalized/date`.",
+    "keywords": ["rangecalendar", "usage", "date range", "calendar"]
+  },
+  {
+    "topic": "RangeCalendar Date Restrictions",
+    "content": "You can restrict the selectable range with `minValue` and `maxValue`. The `isDateUnavailable` prop can disable specific dates. `allowsNonContiguousRanges` can be used to select a range over unavailable dates.",
+    "keywords": ["rangecalendar", "date restriction", "minvalue", "maxvalue", "unavailable", "non-contiguous"]
+  },
+  {
+    "topic": "RangeCalendar Features",
+    "content": "Key features include `showMonthAndYearPickers`, `visibleMonths`, and international calendar support, similar to the standard Calendar component.",
+    "keywords": ["rangecalendar", "features", "month picker", "visible months", "internationalization"]
+  },
+  {
+    "topic": "RangeCalendar Accessibility",
+    "content": "RangeCalendar is fully accessible, with keyboard navigation for selecting ranges and localized screen reader announcements.",
+    "keywords": ["rangecalendar", "accessibility", "a11y", "keyboard navigation"]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "topic": "Autocomplete Usage (Static vs. Dynamic)",
+    "content": "The Autocomplete component combines a text input with a listbox. It can be populated with static items defined directly in JSX (`AutocompleteItem`), or with dynamic items from an external data source passed to the `items` prop.",
+    "keywords": ["autocomplete", "usage", "static", "dynamic", "items"]
+  },
+  {
+    "topic": "Autocomplete Features",
+    "content": "Key features include disabled states (`isDisabled`, `disabledKeys`), required fields (`isRequired`), read-only mode (`isReadOnly`), and allowing custom user values (`allowsCustomValue`).",
+    "keywords": ["autocomplete", "features", "disabled", "required", "readonly", "custom value"]
+  },
+  {
+    "topic": "Autocomplete Styling",
+    "content": "Autocomplete supports multiple `sizes`, `colors`, and `variants` (flat, bordered, faded, underlined). The label position can be changed with `labelPlacement`. You can also add `startContent` and `endContent`.",
+    "keywords": ["autocomplete", "styling", "variants", "colors", "sizes", "labelPlacement"]
+  },
+  {
+    "topic": "Autocomplete Asynchronous Operations",
+    "content": "Autocomplete supports async operations. Use a hook like `useAsyncList` for asynchronous filtering and loading of data from a server.",
+    "keywords": ["autocomplete", "asynchronous", "async", "filtering", "loading", "useasynclist"]
+  },
+  {
+    "topic": "Autocomplete Virtualization",
+    "content": "For long lists, virtualization can be enabled with the `isVirtualized` prop for improved performance. You may need to set `maxListboxHeight` and `itemHeight` for it to work correctly.",
+    "keywords": ["autocomplete", "virtualization", "performance", "long lists", "isvirtualized"]
+  },
+  {
+    "topic": "Autocomplete Controlled State",
+    "content": "Autocomplete can be a controlled component. Use `selectedKey` with `onSelectionChange` to control the selection, and `inputValue` with `onInputChange` to control the text.",
+    "keywords": ["autocomplete", "controlled", "state", "selectedKey", "inputValue"]
+  },
+  {
+    "topic": "Autocomplete Slots",
+    "content": "Key stylable slots for Autocomplete include `base`, `listboxWrapper`, `popoverContent`, `clearButton`, and `selectorButton`.",
+    "keywords": ["autocomplete", "slots", "classnames", "style slots"]
+  },
+  {
+    "topic": "Autocomplete with Sections",
+    "content": "You can group items using the `AutocompleteSection` component. The section itself can be styled using its `classNames` property.",
+    "keywords": ["autocomplete", "section", "group", "autocompletesection"]
+  }
+]

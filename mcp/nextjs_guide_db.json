@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "Next.js Requirements",
+    "content": "To use HeroUI with Next.js, you need Next.js 12+, React 18+, Tailwind CSS v4, and Framer Motion 11.9+.",
+    "keywords": ["next.js", "nextjs", "requirements", "prerequisites"]
+  },
+  {
+    "topic": "Next.js App Directory Setup",
+    "content": "For Next.js 13+ App Directory, HeroUI components can be used directly in Server Components because 'use client' is added at build time. The recommended setup is via the HeroUI CLI or `create-next-app` templates. A manual setup involves installing dependencies, configuring Tailwind, and wrapping the root layout in a providers file with `HeroUIProvider`.",
+    "keywords": ["next.js", "app directory", "app router", "server components", "use client", "provider"]
+  },
+  {
+    "topic": "Next.js Pages Directory Setup",
+    "content": "For the traditional Next.js Pages Directory, the setup is similar but the `HeroUIProvider` should be added in your `pages/_app.js` or `pages/_app.tsx` file, wrapping the `Component`.",
+    "keywords": ["next.js", "pages directory", "pages router", "_app.js", "_app.tsx", "provider"]
+  },
+  {
+    "topic": "Installation in Next.js",
+    "content": "You can start a new project using `HeroUI CLI` or `create-next-app` templates for a pre-configured setup. For existing projects, you can add components with the CLI (`add <component>`) or perform a manual installation by adding dependencies and configuring Tailwind CSS.",
+    "keywords": ["next.js", "installation", "cli", "create-next-app", "manual installation"]
+  },
+  {
+    "topic": "Using Components in Next.js Server Components",
+    "content": "You can import any HeroUI component directly in your Server Components without needing to add the `use client` directive yourself. However, you must import the component from its individual package (e.g., `@heroui/button`), not from the main `@heroui/react` package.",
+    "keywords": ["next.js", "server components", "import", "individual package"]
+  }
+]

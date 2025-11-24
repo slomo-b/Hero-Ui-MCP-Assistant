@@ -1,0 +1,17 @@
+ [
+  {
+    "topic": "Spinner Usage",
+    "content": "A `Spinner` is used to indicate an unspecified wait time. It should have an accessible `label` or `aria-label`. It supports different `sizes` and `colors`.",
+    "keywords": ["spinner", "usage", "loading", "indicator", "wait"]
+  },
+  {
+    "topic": "Spinner Variants",
+    "content": "The Spinner has multiple visual `variants`, including `default`, `simple`, `gradient`, `wave`, `dots`, and `spinner`.",
+    "keywords": ["spinner", "variants", "styling", "dots", "wave"]
+  },
+  {
+    "topic": "Spinner Slots",
+    "content": "Key stylable slots are `base`, `wrapper`, `circle1`, `circle2` (for the default spinner), and `label`.",
+    "keywords": ["spinner", "slots", "classnames", "style slots"]
+  }
+]

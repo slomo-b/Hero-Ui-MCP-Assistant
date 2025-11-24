@@ -1,0 +1,52 @@
+[
+  {
+    "topic": "What is HeroUI?",
+    "content": "HeroUI is a UI library for React built on top of Tailwind CSS and React Aria. Its primary goal is to streamline the development process by offering a beautiful, accessible, and adaptable system design.",
+    "keywords": ["heroui", "introduction", "what is", "overview"]
+  },
+  {
+    "topic": "Is HeroUI a copy-paste library?",
+    "content": "No, HeroUI is not a copy-paste library. All components are available as packages via npm and can be installed individually or as a whole.",
+    "keywords": ["copy-paste", "npm", "install", "package"]
+  },
+  {
+    "topic": "Difference from TailwindCSS",
+    "content": "TailwindCSS is a CSS framework providing atomic classes. HeroUI is a complete UI library for React that uses Tailwind as its style engine but adds component logic, accessibility (via React Aria), and composition.",
+    "keywords": ["tailwind", "tailwindcss", "difference"]
+  },
+  {
+    "topic": "Difference from other Tailwind component libraries",
+    "content": "Libraries like TailwindUI or Flowbite offer styled HTML snippets. HeroUI provides complete React components with logic, props, accessibility features, and composition, not just CSS classes.",
+    "keywords": ["tailwindui", "flowbite", "preline", "comparison"]
+  },
+  {
+    "topic": "How HeroUI handles TailwindCSS class conflicts",
+    "content": "HeroUI uses a utility called `tailwind-variants` that automatically handles TailwindCSS class conflicts, ensuring custom classes consistently override default ones without duplication.",
+    "keywords": ["conflict", "override", "tailwind-variants", "css"]
+  },
+  {
+    "topic": "Does HeroUI use runtime CSS?",
+    "content": "No. HeroUI uses TailwindCSS as its style engine, which generates all CSS at build time. This makes it fully compatible with the latest React and Next.js versions.",
+    "keywords": ["runtime css", "build time", "performance", "next.js"]
+  },
+  {
+    "topic": "TypeScript Support",
+    "content": "Yes, HeroUI is written in TypeScript and has full support for it.",
+    "keywords": ["typescript", "ts", "types"]
+  },
+  {
+    "topic": "Support for other frameworks (Vue, Angular)",
+    "content": "No, HeroUI is specifically designed for React because it is built on top of React Aria. The styling part could potentially be used, but the component logic is React-specific.",
+    "keywords": ["vue", "angular", "svelte", "frameworks"]
+  },
+  {
+    "topic": "Why HeroUI uses Framer Motion",
+    "content": "HeroUI uses Framer Motion for complex, physics-based animations in a straightforward and performant way.",
+    "keywords": ["framer motion", "animation", "animate"]
+  },
+  {
+    "topic": "Community",
+    "content": "You can get involved with the community via X, Discord, and GitHub. Contributions are welcome.",
+    "keywords": ["community", "discord", "github", "contributing", "issues"]
+  }
+]

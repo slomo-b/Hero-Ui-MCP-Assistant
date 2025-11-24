@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "Requirements",
+    "content": "To use HeroUI, you need React 18 or later, Tailwind CSS v4, and Framer Motion 11.9 or later.",
+    "keywords": ["requirements", "prerequisites", "react version", "tailwind version"]
+  },
+  {
+    "topic": "Automatic Installation (CLI)",
+    "content": "The easiest way to start is with the CLI. Use `init` to configure the project, then install dependencies (e.g., `pnpm install`) and start the server. You can add components with `add <component_name>`.",
+    "keywords": ["automatic", "cli", "installation", "init", "add component", "easiest"]
+  },
+  {
+    "topic": "Manual Installation (Global)",
+    "content": "For a global installation, install the main `@heroui/react` package. For `pnpm`, you must update `.npmrc`. You also need to configure `tailwind.config.js` and wrap your application root in the `HeroUIProvider`.",
+    "keywords": ["manual", "global", "installation", "all components", "pnpm", ".npmrc", "provider"]
+  },
+  {
+    "topic": "Manual Installation (Individual)",
+    "content": "For an individual installation, first install core packages, then install specific component packages (e.g., `@heroui/button`). This method is useful for reducing the final CSS bundle size. Each component's styles must be added to `tailwind.config.js`.",
+    "keywords": ["manual", "individual", "separate packages", "css bundle", "tree shaking", "core packages"]
+  },
+  {
+    "topic": "Framework Guides",
+    "content": "HeroUI provides comprehensive, step-by-step tutorials for integrating with Next.js, Vite, Remix, and Astro.",
+    "keywords": ["frameworks", "guides", "next.js", "vite", "remix", "astro"]
+  }
+]

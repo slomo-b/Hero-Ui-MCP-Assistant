@@ -1,0 +1,640 @@
+[
+  {
+    "name": "Button",
+    "description": "A button component for user actions.",
+    "code_snippet": "import { Button } from '@heroui/button';\n\nfunction App() {\n  return <Button>Press me</Button>;\n}",
+    "keywords": [
+      "button",
+      "click",
+      "submit",
+      "press",
+      "action"
+    ]
+  },
+  {
+    "name": "Tabs",
+    "description": "A set of tabs for navigating between different views.",
+    "code_snippet": "import { Tabs, Tab } from '@heroui/react';\n\nfunction App() {\n  return (\n    <Tabs aria-label=\"Navigation\">\n      <Tab key=\"home\" href=\"/home\">Home</Tab>\n      <Tab key=\"about\" href=\"/about\">About</Tab>\n    </Tabs>\n  );\n}",
+    "keywords": [
+      "tabs",
+      "tab",
+      "navigation",
+      "views"
+    ]
+  },
+  {
+    "name": "Listbox",
+    "description": "A component that allows users to select one or more items from a list.",
+    "code_snippet": "import { Listbox, ListboxItem } from '@heroui/react';\n\nfunction App() {\n  return (\n    <Listbox aria-label=\"Navigation\">\n      <ListboxItem key=\"home\" href=\"/home\">Home</ListboxItem>\n      <ListboxItem key=\"about\" href=\"/about\">About</ListboxItem>\n    </Listbox>\n  );\n}",
+    "keywords": [
+      "listbox",
+      "list",
+      "select",
+      "option"
+    ]
+  },
+  {
+    "name": "Dropdown",
+    "description": "A dropdown menu for displaying a list of options.",
+    "code_snippet": "import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button } from '@heroui/react';\n\nfunction App() {\n  return (\n    <Dropdown>\n      <DropdownTrigger><Button>Open</Button></DropdownTrigger>\n      <DropdownMenu aria-label=\"Navigation\">\n        <DropdownItem key=\"home\" href=\"/home\">Home</DropdownItem>\n        <DropdownItem key=\"about\" href=\"/about\">About</DropdownItem>\n      </DropdownMenu>\n    </Dropdown>\n  );\n}",
+    "keywords": [
+      "dropdown",
+      "menu",
+      "select",
+      "options"
+    ]
+  },
+  {
+    "name": "Link",
+    "description": "A component for navigating to a different page or section.",
+    "code_snippet": "import { Link } from '@heroui/react';\n\nfunction App() {\n  return <Link href=\"/home\">Home</Link>;\n}",
+        "keywords": [
+      "link",
+      "href",
+      "navigation",
+      "anchor"
+    ]
+  },
+  {
+    "name": "Form",
+    "description": "A container for form elements that handles submission and validation.",
+    "code_snippet": "import { Form, Button, Input } from '@heroui/react';\n\nfunction App() {\n  return (\n    <Form onSubmit={...}>\n      <Input name=\"email\" label=\"Email\" type=\"email\" isRequired />\n      <Button type=\"submit\">Submit</Button>\n    </Form>\n  );\n}",
+    "keywords": [
+      "form",
+      "submit",
+      "validation",
+      "input"
+    ]
+  },
+  {
+    "name": "Input",
+    "description": "A basic text input field for forms.",
+    "code_snippet": "import { Input } from '@heroui/react';\n\nfunction App() {\n  return <Input name=\"username\" label=\"Username\" isRequired />;\n}",
+    "keywords": [
+      "input",
+      "text field",
+      "form field",
+      "entry"
+    ]
+  },
+  {
+    "name": "Label",
+    "description": "A component to provide accessible labels for form fields.",
+    "code_snippet": "import { Label, Input } from '@heroui/react';\n\nfunction App() {\n  return (\n    <div>\n      <Label>Email Address</Label>\n      <Input name=\"email\" />\n    </div>\n  );\n}",
+    "keywords": [
+      "label",
+      "form label",
+            "accessibility"
+    ]
+  },
+  {
+    "name": "CircularProgress",
+    "description": "A component to indicate progress in a circular format. It has multiple 'slots' for styling.",
+    "code_snippet": "import { CircularProgress } from '@heroui/react';\n\nfunction App() {\n  return <CircularProgress value={70} showValueLabel={true} />;\n}",
+    "keywords": [
+      "circular progress",
+      "progress bar",
+      "loading",
+      "indicator"
+    ]
+  },
+  {
+    "name": "Card",
+    "description": "A container for content with a distinct background and shadow.",
+    "code_snippet": "import { Card, CardBody } from '@heroui/react';\n\nfunction App() {\n  return <Card><CardBody>Card content</CardBody></Card>;\n}",
+    "keywords": [
+      "card",
+      "container",
+      "panel",
+      "content"
+    ]
+  },
+  {
+    "name": "CardBody",
+    "description": "The main content area within a Card component.",
+    "code_snippet": "import { Card, CardBody } from '@heroui/react';\n\nfunction App() {\n  return <Card><CardBody>Card content</CardBody></Card>;\n}",
+    "keywords": [
+            "cardbody",
+      "card content"
+    ]
+  },
+  {
+    "name": "Accordion",
+    "description": "A component to display a list of high-level options that can expand/collapse.",
+    "code_snippet": "import { Accordion, AccordionItem } from '@heroui/accordion';\n\nfunction App() {\n  return (\n    <Accordion>\n      <AccordionItem key=\"1\" title=\"Accordion 1\">Content 1</AccordionItem>\n      <AccordionItem key=\"2\" title=\"Accordion 2\">Content 2</AccordionItem>\n    </Accordion>\n  );\n}",
+    "keywords": [
+      "accordion",
+      "collapse",
+      "expand",
+            "details"
+    ]
+  },
+  {
+    "name": "Autocomplete",
+    "description": "A text input that filters a list of options.",
+    "code_snippet": "import { Autocomplete, AutocompleteItem } from '@heroui/autocomplete';\n\nfunction App() {\n  return (\n    <Autocomplete label=\"Favorite Animal\">\n      <AutocompleteItem key=\"red_panda\">Red Panda</AutocompleteItem>\n      <AutocompleteItem key=\"cat\">Cat</AutocompleteItem>\n    </Autocomplete>\n  );\n}",
+    "keywords": [
+      "autocomplete",
+      "combobox",
+      "search",
+      "filter"
+    ]
+  },
+  {
+    "name": "AutocompleteItem",
+    "description": "An individual item within an Autocomplete list.",
+    "code_snippet": "// See Autocomplete",
+    "keywords": [
+      "autocompleteitem",
+      "option"
+    ]
+  },
+  {
+    "name": "AutocompleteSection",
+    "description": "A component to group items within an Autocomplete list.",
+    "code_snippet": "import { Autocomplete, AutocompleteSection, AutocompleteItem } from '@heroui/autocomplete';\n\nfunction App() {\n  return (\n    <Autocomplete label=\"Favorite Animal\">\n      <AutocompleteSection title=\"Mammals\">\n        <AutocompleteItem key=\"red_panda\">Red Panda</AutocompleteItem>\n        <AutocompleteItem key=\"cat\">Cat</AutocompleteItem>\n      </AutocompleteSection>\n    </Autocomplete>\n  );\n}",
+    "keywords": [
+      "autocompletesection",
+            "group"
+    ]
+  },
+  {
+    "name": "Alert",
+    "description": "A component to display temporary notifications and feedback.",
+    "code_snippet": "import { Alert } from '@heroui/alert';\n\nfunction App() {\n  return <Alert color=\"success\">Thanks for subscribing!</Alert>;\n}",
+    "keywords": [
+      "alert",
+      "notification",
+      "feedback",
+            "message"
+    ]
+  },
+  {
+    "name": "Avatar",
+    "description": "A component to represent a user, displaying a profile picture, initials, or a fallback icon.",
+    "code_snippet": "import { Avatar } from '@heroui/avatar';\n\nfunction App() {\n  return <Avatar src=\"https://i.pravatar.cc/150?u=a042581f4e29026024d\" name=\"John Doe\" />;\n}",
+    "keywords": [
+      "avatar",
+      "user",
+      "profile",
+      "picture"
+    ]
+  },
+  {
+    "name": "AvatarGroup",
+    "description": "A component to display a group of avatars.",
+    "code_snippet": "import { Avatar, AvatarGroup } from '@heroui/avatar';\n\nfunction App() {\n  return (\n    <AvatarGroup max={3}>\n      <Avatar name=\"John\" />\n      <Avatar name=\"Jane\" />\n      <Avatar name=\"Joe\" />\n      <Avatar name=\"Jake\" />\n    </AvatarGroup>\n  );\n}",
+    "keywords": [
+      "avatargroup",
+      "user group",
+            "team"
+    ]
+  },
+  {
+    "name": "Badge",
+    "description": "A component to display a small numerical value or status descriptor for UI elements.",
+    "code_snippet": "import { Badge, Avatar } from '@heroui/react';\n\nfunction App() {\n  return (\n    <Badge content=\"5\" color=\"primary\">\n      <Avatar src=\"https://i.pravatar.cc/150?u=a042581f4e29026024d\" />\n    </Badge>\n  );\n}",
+    "keywords": [
+      "badge",
+      "count",
+      "status",
+            "notification"
+    ]
+  },
+  {
+    "name": "Breadcrumbs",
+    "description": "A component to display a hierarchy of links to the current page.",
+    "code_snippet": "import { Breadcrumbs, BreadcrumbItem } from '@heroui/breadcrumbs';\n\nfunction App() {\n  return (\n    <Breadcrumbs>\n      <BreadcrumbItem href=\"/\">Home</BreadcrumbItem>\n      <BreadcrumbItem href=\"/music\">Music</BreadcrumbItem>\n      <BreadcrumbItem>Song</BreadcrumbItem>\n    </Breadcrumbs>\n  );\n}",
+    "keywords": [
+      "breadcrumbs",
+      "navigation",
+      "path",
+      "hierarchy"
+    ]
+  },
+  {
+    "name": "BreadcrumbItem",
+    "description": "An individual item within a Breadcrumbs component.",
+    "code_snippet": "// See Breadcrumbs",
+        "keywords": [
+      "breadcrumbitem",
+      "link",
+      "path"
+    ]
+  },
+  {
+    "name": "ButtonGroup",
+    "description": "A component to group multiple buttons together.",
+    "code_snippet": "import { Button, ButtonGroup } from '@heroui/button';\n\nfunction App() {\n  return (\n    <ButtonGroup>\n      <Button>One</Button>\n      <Button>Two</Button>\n      <Button>Three</Button>\n    </ButtonGroup>\n  );\n}",
+    "keywords": [
+      "buttongroup",
+      "button container",
+            "group"
+    ]
+  },
+  {
+    "name": "Calendar",
+    "description": "A component to display one or more date grids and allow users to select a date.",
+    "code_snippet": "import { Calendar } from '@heroui/calendar';\nimport { today, getLocalTimeZone } from '@internationalized/date';\n\nfunction App() {\n  return <Calendar defaultValue={today(getLocalTimeZone())} />;\n}",
+    "keywords": [
+      "calendar",
+      "date",
+      "date picker",
+            "month"
+    ]
+  },
+  {
+    "name": "CardHeader",
+    "description": "The header section of a Card, typically used for a title.",
+    "code_snippet": "import { Card, CardHeader, CardBody } from '@heroui/react';\n\nfunction App() {\n  return (\n    <Card>\n      <CardHeader>Card Title</CardHeader>\n      <CardBody>Card content</CardBody>\n    </Card>\n  );\n}",
+    "keywords": [
+      "cardheader",
+      "card title"
+    ]
+  },
+  {
+    "name": "CardFooter",
+    "description": "The footer section of a Card, typically used for actions.",
+    "code_snippet": "import { Card, CardFooter, Button } from '@heroui/react';\n\nfunction App() {\n  return (\n    <Card>\n      <CardFooter>\n        <Button>Action</Button>\n      </CardFooter>\n    </Card>\n  );\n}",
+    "keywords": [
+      "cardfooter",
+            "card actions"
+    ]
+  },
+  {
+    "name": "Checkbox",
+    "description": "A component that allows users to select one or more items from a list.",
+    "code_snippet": "import { Checkbox } from '@heroui/checkbox';\n\nfunction App() {\n  return <Checkbox>Subscribe</Checkbox>;\n}",
+    "keywords": [
+      "checkbox",
+      "select",
+      "option",
+            "form"
+    ]
+  },
+  {
+    "name": "CheckboxGroup",
+    "description": "A component to group multiple checkboxes, allowing users to select one or more items.",
+    "code_snippet": "import { CheckboxGroup, Checkbox } from '@heroui/checkbox';\n\nfunction App() {\n  return (\n    <CheckboxGroup label=\"Select cities\">\n      <Checkbox value=\"buenos-aires\">Buenos Aires</Checkbox>\n      <Checkbox value=\"sydney\">Sydney</Checkbox>\n    </CheckboxGroup>\n  );\n}",
+    "keywords": [
+      "checkboxgroup",
+      "checkboxes",
+      "form",
+            "group"
+    ]
+  },
+  {
+    "name": "Chip",
+    "description": "A small block of essential information that represents an input, attribute, or action.",
+    "code_snippet": "import { Chip } from '@heroui/chip';\n\nfunction App() {\n  return <Chip>Chip</Chip>;\n}",
+    "keywords": [
+      "chip",
+      "tag",
+      "label",
+            "attribute"
+    ]
+  },
+  {
+    "name": "Code",
+    "description": "A component to display inline code.",
+    "code_snippet": "import { Code } from '@heroui/code';\n\nfunction App() {\n  return <Code>npm install @heroui/react</Code>;\n}",
+    "keywords": [
+      "code",
+      "snippet",
+            "inline"
+    ]
+  },
+  {
+    "name": "DateInput",
+    "description": "A component that allows users to enter and edit date and time values via keyboard.",
+    "code_snippet": "import { DateInput } from '@heroui/date-input';\nimport {DateValue} from '@internationalized/date';\n\nfunction App() {\n  return <DateInput label=\"Birth date\" />;\n}",
+    "keywords": [
+      "dateinput",
+      "date",
+      "time",
+            "input"
+    ]
+  },
+  {
+    "name": "DatePicker",
+    "description": "A component that combines a DateInput and a Calendar popover.",
+    "code_snippet": "import { DatePicker } from '@heroui/date-picker';\n\nfunction App() {\n  return <DatePicker label=\"Birth date\" />;\n}",
+    "keywords": [
+      "datepicker",
+      "date",
+      "calendar",
+            "picker"
+    ]
+  },
+  {
+    "name": "DateRangePicker",
+    "description": "A component that allows users to enter or select a date and time range.",
+    "code_snippet": "import { DateRangePicker } from '@heroui/date-picker';\n\nfunction App() {\n  return <DateRangePicker label=\"Stay dates\" />;\n}",
+    "keywords": [
+      "daterangepicker",
+      "date range",
+      "calendar",
+            "picker"
+    ]
+  },
+  {
+    "name": "Divider",
+    "description": "A component to separate content.",
+    "code_snippet": "import { Divider } from '@heroui/divider';\n\nfunction App() {\n  return <Divider />;\n}",
+    "keywords": [
+      "divider",
+      "separator",
+      "line"
+    ]
+  },
+  {
+    "name": "DropdownItem",
+    "description": "An individual item within a DropdownMenu.",
+    "code_snippet": "// See Dropdown",
+    "keywords": [
+      "dropdownitem",
+      "menu item"
+    ]
+  },
+  {
+    "name": "DropdownSection",
+    "description": "A component to group items within a DropdownMenu.",
+    "code_snippet": "// See Dropdown",
+    "keywords": [
+      "dropdownsection",
+      "menu group"
+    ]
+  },
+  {
+    "name": "Drawer",
+    "description": "A panel that slides in from the edge of the screen.",
+    "code_snippet": "import { Drawer, DrawerContent, Button } from '@heroui/react';\n\nfunction App() {\n  return <Drawer><DrawerContent>...</DrawerContent></Drawer>\n}",
+    "keywords": [
+      "drawer",
+      "panel",
+      "sidebar"
+    ]
+  },
+  {
+    "name": "Image",
+    "description": "A component to display images with support for fallback and effects.",
+    "code_snippet": "import { Image } from '@heroui/image';\n\nfunction App() {\n  return <Image src=\"...\" alt=\"...\" />;\n}",
+    "keywords": [
+      "image",
+      "picture",
+            "photo"
+    ]
+  },
+  {
+    "name": "InputOtp",
+    "description": "A component to enter one-time passwords (OTP).",
+    "code_snippet": "import { InputOtp } from '@heroui/input-otp';\n\nfunction App() {\n  return <InputOtp />;\n}",
+    "keywords": [
+      "inputotp",
+      "otp",
+      "one-time password"
+    ]
+  },
+  {
+    "name": "Kbd",
+    "description": "A component to display a keyboard key or combination of keys.",
+    "code_snippet": "import { Kbd } from '@heroui/kbd';\n\nfunction App() {\n  return <Kbd keys={['command']}>K</Kbd>;\n}",
+    "keywords": [
+      "kbd",
+      "keyboard",
+            "shortcut"
+    ]
+  },
+  {
+    "name": "ListboxItem",
+    "description": "An individual item within a Listbox.",
+    "code_snippet": "// See Listbox",
+    "keywords": [
+      "listboxitem",
+      "option"
+    ]
+  },
+  {
+    "name": "ListboxSection",
+    "description": "A component to group items within a Listbox.",
+    "code_snippet": "// See Listbox",
+    "keywords": [
+      "listboxsection",
+      "group"
+    ]
+  },
+  {
+    "name": "Modal",
+    "description": "A dialog that requires user attention or provides additional information.",
+    "code_snippet": "import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button } from '@heroui/react';\n\nfunction App() {\n  return (\n    <Modal isOpen onClose={...}>\n      <ModalContent>...</ModalContent>\n    </Modal>\n  );\n}",
+    "keywords": [
+      "modal",
+      "dialog",
+      "popup"
+    ]
+  },
+  {
+    "name": "Navbar",
+    "description": "A responsive navigation header.",
+    "code_snippet": "import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from '@heroui/navbar';\n\nfunction App() {\n  return <Navbar>...</Navbar>;\n}",
+    "keywords": [
+      "navbar",
+      "navigation",
+            "header"
+    ]
+  },
+  {
+    "name": "NumberInput",
+    "description": "A component for users to enter a number, with stepper buttons.",
+    "code_snippet": "import { NumberInput } from '@heroui/number-input';\n\nfunction App() {\n  return <NumberInput />;\n}",
+    "keywords": [
+      "numberinput",
+      "number",
+      "input",
+      "stepper"
+    ]
+  },
+  {
+    "name": "Pagination",
+    "description": "A component to display active page and navigate between multiple pages.",
+    "code_snippet": "import { Pagination } from '@heroui/pagination';\n\nfunction App() {\n  return <Pagination total={10} initialPage={1} />;\n}",
+    "keywords": [
+      "pagination",
+      "pages",
+      "navigation"
+    ]
+  },
+  {
+    "name": "Popover",
+    "description": "A non-modal dialog that floats around its disclosure trigger.",
+    "code_snippet": "import { Popover, PopoverTrigger, PopoverContent, Button } from '@heroui/popover';\n\nfunction App() {\n  return (\n    <Popover>\n      <PopoverTrigger><Button>Open</Button></PopoverTrigger>\n      <PopoverContent>...</PopoverContent>\n    </Popover>\n  );\n}",
+    "keywords": [
+      "popover",
+      "dialog",
+            "tooltip"
+    ]
+  },
+  {
+    "name": "Progress",
+    "description": "A component to display the progress of an activity.",
+    "code_snippet": "import { Progress } from '@heroui/progress';\n\nfunction App() {\n  return <Progress value={60} />;\n}",
+    "keywords": [
+      "progress",
+      "progress bar",
+      "loading"
+    ]
+  },
+  {
+    "name": "RadioGroup",
+    "description": "A component to allow users to select a single option from a list.",
+    "code_snippet": "import { RadioGroup, Radio } from '@heroui/radio';\n\nfunction App() {\n  return (\n    <RadioGroup label=\"Favorite city\">\n      <Radio value=\"london\">London</Radio>\n      <Radio value=\"tokyo\">Tokyo</Radio>\n    </RadioGroup>\n  );\n}",
+    "keywords": [
+      "radiogroup",
+      "radio",
+      "options",
+      "form"
+    ]
+  },
+  {
+    "name": "RangeCalendar",
+    "description": "A component that allows users to select a date range.",
+    "code_snippet": "import { RangeCalendar } from '@heroui/calendar';\n\nfunction App() {\n  return <RangeCalendar />;\n}",
+    "keywords": [
+      "rangecalendar",
+      "date range",
+      "calendar"
+    ]
+  },
+  {
+    "name": "ScrollShadow",
+    "description": "A component that applies shadows when content overflows on scroll.",
+    "code_snippet": "import { ScrollShadow } from '@heroui/scroll-shadow';\n\nfunction App() {\n  return <ScrollShadow>...</ScrollShadow>;\n}",
+    "keywords": [
+      "scrollshadow",
+      "scroll",
+            "shadow"
+    ]
+  },
+  {
+    "name": "Select",
+    "description": "A component that displays a collapsible list of options and allows a user to select one or more.",
+    "code_snippet": "import { Select, SelectItem } from '@heroui/select';\n\nfunction App() {\n  return (\n    <Select label=\"Favorite Animal\">\n      <SelectItem key=\"cat\">Cat</SelectItem>\n      <SelectItem key=\"dog\">Dog</SelectItem>\n    </Select>\n  );\n}",
+    "keywords": [
+      "select",
+      "dropdown",
+      "picker",
+      "options"
+    ]
+  },
+  {
+    "name": "Skeleton",
+    "description": "A placeholder to show a loading state and the expected shape of a component.",
+    "code_snippet": "import { Skeleton, Card } from '@heroui/react';\n\nfunction App() {\n  return (\n    <Card><Skeleton>...</Skeleton></Card>\n  );\n}",
+    "keywords": [
+      "skeleton",
+      "loading",
+      "placeholder"
+    ]
+  },
+  {
+    "name": "Slider",
+    "description": "A component that allows a user to select one or more values within a range.",
+    "code_snippet": "import { Slider } from '@heroui/slider';\n\nfunction App() {\n  return <Slider defaultValue={50} />;\n}",
+    "keywords": [
+      "slider",
+      "range",
+            "value"
+    ]
+  },
+  {
+    "name": "Snippet",
+    "description": "A component to display inline or multiline code snippets with a copy button.",
+    "code_snippet": "import { Snippet } from '@heroui/snippet';\n\nfunction App() {\n  return <Snippet>npm install @heroui/react</Snippet>;\n}",
+    "keywords": [
+      "snippet",
+      "code",
+      "copy"
+    ]
+  },
+  {
+    "name": "Spacer",
+    "description": "A component to add space between components.",
+    "code_snippet": "import { Spacer } from '@heroui/spacer';\n\nfunction App() {\n  return <Spacer y={4} />;\n}",
+    "keywords": [
+      "spacer",
+      "space",
+      "margin"
+    ]
+  },
+  {
+    "name": "Spinner",
+    "description": "A component to express an unspecified wait time.",
+    "code_snippet": "import { Spinner } from '@heroui/spinner';\n\nfunction App() {\n  return <Spinner />;\n}",
+    "keywords": [
+      "spinner",
+      "loading",
+      "indicator"
+    ]
+  },
+  {
+    "name": "Switch",
+    "description": "A component used as an alternative between checked and not checked states.",
+    "code_snippet": "import { Switch } from '@heroui/switch';\n\nfunction App() {\n  return <Switch />;\n}",
+    "keywords": [
+      "switch",
+      "toggle",
+      "on-off"
+    ]
+  },
+  {
+    "name": "Table",
+    "description": "A component to display tabular data using rows and columns.",
+    "code_snippet": "import { Table, TableHeader, TableBody, TableColumn, TableRow, TableCell } from '@heroui/table';\n\nfunction App() {\n  return <Table>...</Table>;\n}",
+    "keywords": [
+      "table",
+      "grid",
+            "data"
+    ]
+  },
+  {
+    "name": "Textarea",
+    "description": "A multi-line input component for large texts.",
+    "code_snippet": "import { Textarea } from '@heroui/input';\n\nfunction App() {\n  return <Textarea label=\"Description\" />;\n}",
+    "keywords": [
+      "textarea",
+      "input",
+      "multiline",
+      "form"
+    ]
+  },
+  {
+    "name": "TimeInput",
+    "description": "A component for entering and editing time values via keyboard.",
+    "code_snippet": "import { TimeInput } from '@heroui/date-input';\n\nfunction App() {\n  return <TimeInput label=\"Event time\" />;\n}",
+    "keywords": [
+      "timeinput",
+      "time",
+      "input"
+    ]
+  },
+  {
+    "name": "Tooltip",
+    "description": "A small pop-up that displays information on hover or focus.",
+    "code_snippet": "import { Tooltip, Button } from '@heroui/react';\n\nfunction App() {\n  return <Tooltip content=\"Tooltip text\"><Button>Hover me</Button></Tooltip>;\n}",
+    "keywords": [
+      "tooltip",
+      "hint",
+      "popover"
+    ]
+  },
+  {
+    "name": "User",
+    "description": "A component to display user information with an avatar, name, and description.",
+    "code_snippet": "import { User } from '@heroui/user';\n\nfunction App() {\n  return <User name=\"Jane Doe\" description=\"Product Designer\" />;\n}",
+    "keywords": [
+      "user",
+      "profile",
+      "avatar"
+    ]
+  }
+]

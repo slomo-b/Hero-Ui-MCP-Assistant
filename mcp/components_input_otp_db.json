@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "InputOtp Usage",
+    "content": "The `InputOtp` component is used for entering one-time passwords. The number of segments is controlled by the `length` prop. It can also be used as a password field by setting `type='password'`.",
+    "keywords": ["inputotp", "otp", "one-time password", "usage", "length"]
+  },
+  {
+    "topic": "InputOtp Styling",
+    "content": "Styling is controlled via `size`, `color`, `variant`, and `radius` props. The `allowedKeys` prop can be used to set a regex for permitted characters.",
+    "keywords": ["inputotp", "styling", "variants", "colors", "allowedKeys"]
+  },
+  {
+    "topic": "InputOtp Controlled State",
+    "content": "The component can be controlled using the `value` and `onValueChange` props. An `onComplete` event is fired when all segments are filled.",
+    "keywords": ["inputotp", "controlled", "state", "value", "onvaluechange", "oncomplete"]
+  },
+  {
+    "topic": "InputOtp Slots",
+    "content": "Key stylable slots include `base`, `wrapper`, `segment`, and `caret` for the typing indicator.",
+    "keywords": ["inputotp", "slots", "classnames", "style slots", "segment"]
+  }
+]

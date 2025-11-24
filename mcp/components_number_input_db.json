@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "NumberInput Usage",
+    "content": "A `NumberInput` is designed for entering numbers, with optional stepper buttons to increase or decrease the value. It supports standard states like `isDisabled`, `isReadOnly`, and `isRequired`.",
+    "keywords": ["numberinput", "usage", "number field", "stepper"]
+  },
+  {
+    "topic": "NumberInput Features",
+    "content": "Key features include setting a `minValue` and `maxValue`, a `step` for the stepper, hiding the stepper with `hideStepper`, and formatting the number with `formatOptions`.",
+    "keywords": ["numberinput", "features", "minvalue", "maxvalue", "step", "format"]
+  },
+  {
+    "topic": "NumberInput Styling",
+    "content": "NumberInputs can be styled with `variants`, `colors`, `sizes`, `radius`, and the `labelPlacement` prop. `startContent` and `endContent` can be used for currency symbols or icons.",
+    "keywords": ["numberinput", "styling", "variants", "colors", "size"]
+  },
+  {
+    "topic": "NumberInput Validation",
+    "content": "NumberInput supports form validation, custom logic via the `validate` prop, and real-time validation using the `isInvalid` prop.",
+    "keywords": ["numberinput", "validation", "isinvalid", "custom validation"]
+  },
+  {
+    "topic": "NumberInput Slots",
+    "content": "Key stylable slots include `base`, `label`, `inputWrapper`, `input`, `stepperWrapper`, and `stepperButton`.",
+    "keywords": ["numberinput", "slots", "classnames", "style slots"]
+  }
+]

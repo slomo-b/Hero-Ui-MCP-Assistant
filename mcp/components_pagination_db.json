@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "Pagination Usage",
+    "content": "The `Pagination` component allows navigation between multiple pages. It can show next/previous controls with `showControls` and can be set to `loop`.",
+    "keywords": ["pagination", "usage", "pages", "navigation"]
+  },
+  {
+    "topic": "Pagination Appearance",
+    "content": "Pagination supports different `sizes`, `colors`, and `variants`. A `isCompact` version is available for smaller spaces. `siblings` and `boundaries` props control how many page numbers are visible around the current page and at the edges.",
+    "keywords": ["pagination", "styling", "compact", "siblings", "boundaries", "variants"]
+  },
+  {
+    "topic": "Pagination Controlled State",
+    "content": "Pagination can be a controlled component. Use the `page` prop to set the active page and the `onChange` event to handle changes.",
+    "keywords": ["pagination", "controlled", "state", "page", "onchange"]
+  },
+  {
+    "topic": "Pagination Customization",
+    "content": "You can provide a custom rendering function for each item with `renderItem`. For advanced cases, the `usePagination` hook is available.",
+    "keywords": ["pagination", "customization", "renderitem", "hook", "usepagination"]
+  },
+  {
+    "topic": "Pagination Slots",
+    "content": "Key stylable slots include `base`, `wrapper`, `item`, `cursor` (for the active item), `prev`, `next`, and `ellipsis`.",
+    "keywords": ["pagination", "slots", "classnames", "style slots"]
+  }
+]

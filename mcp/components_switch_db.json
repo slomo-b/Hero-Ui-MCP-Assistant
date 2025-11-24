@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Switch Usage",
+    "content": "A `Switch` is used for an on/off state. It can have a `label` and supports a `isDisabled` state.",
+    "keywords": ["switch", "usage", "toggle", "on-off", "boolean"]
+  },
+  {
+    "topic": "Switch Styling",
+    "content": "The Switch can be styled with `size` and `color` props. Icons can be added to the thumb (`thumbIcon`) or to the start/end of the component (`startContent`/`endContent`).",
+    "keywords": ["switch", "styling", "color", "size", "icon", "thumb"]
+  },
+  {
+    "topic": "Switch Controlled State",
+    "content": "A Switch can be a controlled component. Use the `isSelected` prop to set its state and the `onValueChange` event to handle changes.",
+    "keywords": ["switch", "controlled", "state", "isselected", "onvaluechange"]
+  },
+  {
+    "topic": "Switch Slots",
+    "content": "Key stylable slots are `base`, `wrapper`, `thumb`, `label`, and `thumbIcon`.",
+    "keywords": ["switch", "slots", "classnames", "style slots"]
+  }
+]

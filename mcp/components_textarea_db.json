@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Textarea Usage",
+    "content": "A `Textarea` is a multi-line input for large texts. It supports standard states like `isDisabled`, `isReadOnly`, and `isRequired`. A clear button can be added with `isClearable`.",
+    "keywords": ["textarea", "usage", "multi-line input", "text area"]
+  },
+  {
+    "topic": "Textarea Autosize",
+    "content": "By default, the Textarea automatically grows with the content. You can set `minRows` and `maxRows` to control the size limits. This feature can be disabled with `disableAutosize`.",
+    "keywords": ["textarea", "autosize", "minrows", "maxrows", "disableautosize"]
+  },
+  {
+    "topic": "Textarea Validation",
+    "content": "Textarea supports validation with the `isInvalid` and `errorMessage` props.",
+    "keywords": ["textarea", "validation", "isinvalid", "errormessage"]
+  },
+  {
+    "topic": "Textarea Slots",
+    "content": "Key stylable slots include `base`, `label`, `inputWrapper`, `input` (the textarea element), and `errorMessage`.",
+    "keywords": ["textarea", "slots", "classnames", "style slots"]
+  }
+]

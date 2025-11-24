@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Creating Custom Variants",
+    "content": "HeroUI allows you to create new component variants by extending their base styles. This is done using the `extendVariants` function from `@heroui/react`. It is the recommended way to create reusable, customized versions of components.",
+    "keywords": ["custom variants", "extendvariants", "variants", "reusable components"]
+  },
+  {
+    "topic": "Custom Variants for Non-Slot Components",
+    "content": "For a component without slots, like `Button`, you can use `extendVariants` to add new `variants` (e.g., a new color), set new `defaultVariants`, or create `compoundVariants`.",
+    "keywords": ["custom variants", "button", "non-slot", "extendvariants"]
+  },
+  {
+    "topic": "Custom Variants for Slot-Based Components",
+    "content": "The process is similar for components with slots, like `Input`. You use `extendVariants` and can define styles for each specific slot within your new variants.",
+    "keywords": ["custom variants", "input", "slots", "slot-based", "extendvariants"]
+  },
+  {
+    "topic": "Reference and Configuration",
+    "content": "You can find the original styles of a component by following the 'Styles source' link on its documentation page. The `extendVariants` function also supports configuration options like `twMerge` for handling Tailwind class conflicts.",
+    "keywords": ["custom variants", "source styles", "tailwind variants", "twmerge"]
+  }
+]

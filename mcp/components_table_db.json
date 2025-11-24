@@ -1,0 +1,32 @@
+ [
+  {
+    "topic": "Table Usage (Static vs. Dynamic)",
+    "content": "A `Table` displays tabular data. It is composed of `Table`, `TableHeader`, `TableBody`, `TableColumn`, `TableRow`, and `TableCell`. It supports both static and dynamic collections via the `items` prop for better performance.",
+    "keywords": ["table", "usage", "rows", "columns", "static", "dynamic"]
+  },
+  {
+    "topic": "Table Selection",
+    "content": "`Table` supports `single` or `multiple` row selection. This can be controlled via `selectedKeys` and `onSelectionChange`. Row actions can be handled with `onRowAction`.",
+    "keywords": ["table", "selection", "multiple", "single", "onselectionchange", "row action"]
+  },
+  {
+    "topic": "Table Sorting",
+    "content": "Columns can be made sortable with the `allowsSorting` prop. The sorting state is managed through the `sortDescriptor` and `onSortChange` props.",
+    "keywords": ["table", "sorting", "sort", "sortdescriptor", "onsortchange"]
+  },
+  {
+    "topic": "Table Pagination and Virtualization",
+    "content": "For large datasets, `Table` can be combined with the `Pagination` component. It also supports `infinite` scrolling and `virtualization` (`isVirtualized`) for improved performance.",
+    "keywords": ["table", "pagination", "infinite scroll", "virtualization", "performance"]
+  },
+  {
+    "topic": "Table Styling",
+    "content": "Table rows can be `isStriped`. The header can be hidden (`hideHeader`) or sticky (`isHeaderSticky`). The outer wrapper can be removed with `removeWrapper`.",
+    "keywords": ["table", "styling", "striped", "sticky header"]
+  },
+  {
+    "topic": "Table Slots",
+    "content": "Key stylable slots include `base`, `table`, `thead`, `tbody`, `tr`, `th`, `td`, and `sortIcon`.",
+    "keywords": ["table", "slots", "classnames", "style slots"]
+  }
+]

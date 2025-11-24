@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Overriding Component Styles",
+    "content": "To override default styles, pass your own class names. For components without slots, use the `className` prop. For components with multiple parts (slots), use the `classNames` prop.",
+    "keywords": ["override styles", "classname", "classnames", "custom styles"]
+  },
+  {
+    "topic": "Understanding Slots",
+    "content": "A slot is a part of a component that can be styled separately. For example, the `CircularProgress` component has slots like `track`, `indicator`, and `value`. You can style each one individually via the `classNames` prop.",
+    "keywords": ["slots", "style slots", "classnames", "circularprogress"]
+  },
+  {
+    "topic": "Using with CSS Modules",
+    "content": "You can use CSS Modules to override styles by importing your styles object and passing the generated class names to the component's `className` or `classNames` prop.",
+    "keywords": ["override styles", "css modules", "local scope"]
+  },
+  {
+    "topic": "Using with CSS-in-JS",
+    "content": "To use a CSS-in-JS library like `styled-components` or `emotion`, wrap the HeroUI component in the `styled()` function. You can use the `.attrs` method to pass down props like `classNames`.",
+    "keywords": ["override styles", "css-in-js", "styled-components", "emotion", "attrs"]
+  }
+]

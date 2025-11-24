@@ -1,0 +1,17 @@
+[
+  {
+    "topic": "User Usage",
+    "content": "The `User` component is used to display user information, combining an `Avatar` with a `name` and `description`.",
+    "keywords": ["user", "usage", "profile", "avatar", "name", "description"]
+  },
+  {
+    "topic": "User with Link",
+    "content": "The description (or any part) of the User component can be a link by wrapping it with a `Link` component.",
+    "keywords": ["user", "link", "profile link"]
+  },
+  {
+    "topic": "User Slots",
+    "content": "The stylable slots for the User component are `base`, `wrapper` (for name/description), `name`, and `description`.",
+    "keywords": ["user", "slots", "classnames", "style slots"]
+  }
+]

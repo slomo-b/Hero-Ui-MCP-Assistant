@@ -1,0 +1,37 @@
+[
+  {
+    "topic": "CLI Command: init",
+    "content": "Initializes a new HeroUI project using official templates. Options include `--template` (or `-t`) to specify a framework template (e.g., 'app', 'vite') and `--package` (or `-p`) for the package manager.",
+    "keywords": ["cli", "init", "initialize", "new project", "template"]
+  },
+  {
+    "topic": "CLI Command: add",
+    "content": "Adds HeroUI components to your project, automatically managing dependencies and Tailwind configuration. Can be run interactively to select components or by specifying component names. Use `--all` to add all components.",
+    "keywords": ["cli", "add", "add component", "install component"]
+  },
+  {
+    "topic": "CLI Command: upgrade",
+    "content": "Upgrades HeroUI components to the latest version. Use `--all` to upgrade all components at once, or specify component names. The `--write` flag saves changes to `package.json`.",
+    "keywords": ["cli", "upgrade", "update", "latest version"]
+  },
+  {
+    "topic": "CLI Command: remove",
+    "content": "Removes HeroUI components from your project, cleaning up dependencies and configuration. Can be run with component names or with `--all`.",
+    "keywords": ["cli", "remove", "delete", "uninstall component"]
+  },
+  {
+    "topic": "CLI Command: list",
+    "content": "Lists all currently installed HeroUI components in the project. Use the `--remote` (or `-r`) flag to see all components available for installation.",
+    "keywords": ["cli", "list", "show components", "installed components", "remote"]
+  },
+  {
+    "topic": "CLI Command: doctor",
+    "content": "Diagnoses the project for common issues like redundant dependencies, missing configurations in `tailwind.config.js`, or incorrect `pnpm` setup.",
+    "keywords": ["cli", "doctor", "diagnose", "health check", "fix issues"]
+  },
+  {
+    "topic": "CLI Command: env",
+    "content": "Displays debug information about the local environment, including installed components and their versions, OS, and Node version.",
+    "keywords": ["cli", "env", "environment", "info", "versions", "debug"]
+  }
+]

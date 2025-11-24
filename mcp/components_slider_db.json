@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "Slider Usage",
+    "content": "A `Slider` allows users to select a value from a range. It can also be a range slider by passing an array to the `defaultValue` or `value` prop.",
+    "keywords": ["slider", "usage", "range", "value", "input"]
+  },
+  {
+    "topic": "Slider Features",
+    "content": "Key features include setting `minValue`, `maxValue`, and `step`. You can show steps (`showSteps`) and `marks`. The slider can be oriented `vertically`.",
+    "keywords": ["slider", "features", "minvalue", "maxvalue", "step", "marks", "vertical"]
+  },
+  {
+    "topic": "Slider with Tooltip",
+    "content": "You can display a tooltip with the current value by using the `showTooltip` prop. The format of the tooltip's value can be customized with `getTooltipValue` or `tooltipValueFormatOptions`.",
+    "keywords": ["slider", "tooltip", "showtooltip", "value format"]
+  },
+  {
+    "topic": "Slider Customization",
+    "content": "The thumb, label, and value display can all be customized using the `renderThumb`, `renderLabel`, and `renderValue` props, respectively.",
+    "keywords": ["slider", "customization", "renderthumb", "renderlabel", "rendervalue"]
+  },
+  {
+    "topic": "Slider Controlled State",
+    "content": "A Slider can be a controlled component. Use the `value` prop and the `onChange` event to manage its state. `onChangeEnd` can be used to get the value only when the user stops dragging.",
+    "keywords": ["slider", "controlled", "state", "value", "onchange", "onchangeend"]
+  },
+  {
+    "topic": "Slider Slots",
+    "content": "Key stylable slots include `base`, `track`, `filler`, `thumb`, `label`, and `value`.",
+    "keywords": ["slider", "slots", "classnames", "style slots"]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Drawer Usage",
+    "content": "A Drawer is a panel that slides in from an edge of the screen. It is composed of `Drawer`, `DrawerContent`, `DrawerHeader`, `DrawerBody`, and `DrawerFooter`.",
+    "keywords": ["drawer", "usage", "panel", "slide-in", "overlay"]
+  },
+  {
+    "topic": "Drawer Placement and Size",
+    "content": "The drawer can be placed on the `left`, `right` (default), `top`, or `bottom` of the screen. It also supports multiple `sizes` from `xs` to `full`.",
+    "keywords": ["drawer", "placement", "size", "left", "right", "top", "bottom"]
+  },
+  {
+    "topic": "Drawer Behavior",
+    "content": "By default, a drawer is dismissable (on Esc or overlay click), but this can be disabled. It blocks interaction with the content behind it and traps focus within itself for accessibility.",
+    "keywords": ["drawer", "behavior", "dismissable", "focus trap", "inert"]
+  },
+  {
+    "topic": "Drawer Styling",
+    "content": "The `backdrop` can be `transparent`, `opaque`, or `blur`. The enter/exit animations can be customized with `motionProps`. Individual slots like `base`, `header`, `body`, and `footer` can be styled with `classNames`.",
+    "keywords": ["drawer", "styling", "backdrop", "animation", "motionprops", "slots"]
+  }
+]

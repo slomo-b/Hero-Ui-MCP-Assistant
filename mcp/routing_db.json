@@ -1,0 +1,37 @@
+[
+  {
+    "topic": "Routing Introduction",
+    "content": "Many HeroUI components (like Tabs, Listbox, Dropdown) can be rendered as links. To use them with a client-side router, you must configure the `HeroUIProvider` at the root of your app. This avoids full page reloads.",
+    "keywords": ["routing", "client-side", "spa", "navigation", "href", "link"]
+  },
+  {
+    "topic": "HeroUIProvider Setup for Routing",
+    "content": "The `HeroUIProvider` accepts `navigate` and `useHref` props. `navigate` is your router's function for navigation (e.g., from `useRouter` or `useNavigate`). `useHref` is an optional hook to correctly format the href attribute.",
+    "keywords": ["routing", "provider", "herouiprovider", "navigate", "usehref"]
+  },
+  {
+    "topic": "Next.js App Router Setup",
+    "content": "For Next.js App Router, create a `providers.tsx` file. Use the `useRouter` hook from `next/navigation` to get the router object and pass its `push` method to the `HeroUIProvider`'s `navigate` prop. Wrap your root layout with this provider.",
+    "keywords": ["routing", "next.js", "app router", "nextjs", "navigation"]
+  },
+  {
+    "topic": "Next.js Pages Router Setup",
+    "content": "For Next.js Pages Router, go to `pages/_app.js`. Use the `useRouter` hook from `next/router` to get the router object and pass its `push` method to the `HeroUIProvider`'s `navigate` prop.",
+    "keywords": ["routing", "next.js", "pages router", "nextjs", "router"]
+  },
+  {
+    "topic": "React Router Setup",
+    "content": "For React Router, use the `useNavigate` hook from `react-router-dom` to get the `navigate` function. Ensure the component rendering `HeroUIProvider` is inside your `BrowserRouter`.",
+    "keywords": ["routing", "react-router", "usenavigate", "browserrouter"]
+  },
+  {
+    "topic": "Remix Setup",
+    "content": "Remix uses React Router internally. The setup is the same: use the `useNavigate` and `useHref` hooks and place the `HeroUIProvider` at the root of your pages.",
+    "keywords": ["routing", "remix"]
+  },
+  {
+    "topic": "TanStack Router Setup",
+    "content": "To use TanStack Router, you do not need the `HeroUIProvider`. Instead, you wrap each HeroUI component with the `createLink` function provided by the router.",
+    "keywords": ["routing", "tanstack", "tanstack router", "createlink"]
+  }
+]

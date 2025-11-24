@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Tooltip Usage",
+    "content": "A `Tooltip` is a small pop-up that displays information on hover or focus. It wraps a trigger element.",
+    "keywords": ["tooltip", "usage", "pop-up", "hover", "info"]
+  },
+  {
+    "topic": "Tooltip Styling and Placement",
+    "content": "Tooltips support different `colors`, `sizes`, and `radius`. The `placement` and `offset` props control its position relative to the trigger. An arrow can be shown with `showArrow`.",
+    "keywords": ["tooltip", "styling", "placement", "offset", "arrow", "colors"]
+  },
+  {
+    "topic": "Tooltip Behavior",
+    "content": "You can control the open and close `delay`. A tooltip can be controlled programmatically using the `isOpen` prop.",
+    "keywords": ["tooltip", "behavior", "delay", "controlled", "isopen"]
+  },
+  {
+    "topic": "Tooltip Slots",
+    "content": "The two main slots are `base` (the popover itself) and `content`.",
+    "keywords": ["tooltip", "slots", "classnames", "style slots"]
+  }
+]

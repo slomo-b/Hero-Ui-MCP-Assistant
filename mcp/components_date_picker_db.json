@@ -1,0 +1,37 @@
+[
+  {
+    "topic": "DatePicker Usage",
+    "content": "A `DatePicker` combines a `DateInput` with a `Calendar` in a popover. It allows users to either type or visually select a date and time. It uses objects from the `@internationalized/date` package for values.",
+    "keywords": ["datepicker", "usage", "date picker", "calendar", "popover"]
+  },
+  {
+    "topic": "DatePicker with Time",
+    "content": "To allow users to select a time in addition to a date, provide a `CalendarDateTime` or `ZonedDateTime` object as the value and set the `granularity` to 'minute' or 'second'.",
+    "keywords": ["datepicker", "time", "time field", "granularity", "zonedDateTime"]
+  },
+  {
+    "topic": "DatePicker Features",
+    "content": "Key features include `isDisabled`, `isReadOnly`, `isRequired`, `minValue`, `maxValue`, `isDateUnavailable`, and `showMonthAndYearPickers` in the calendar popover.",
+    "keywords": ["datepicker", "features", "disabled", "readonly", "minvalue", "maxvalue"]
+  },
+  {
+    "topic": "DatePicker Styling",
+    "content": "DatePicker supports various `variants`, `colors`, `sizes`, and `labelPlacement` options. The calendar icon can be customized with the `selectorIcon` prop.",
+    "keywords": ["datepicker", "styling", "variants", "colors", "size", "selectorIcon"]
+  },
+  {
+    "topic": "DatePicker Controlled State",
+    "content": "A DatePicker can be a controlled component. Use the `value` prop to set its value and the `onChange` event to handle changes.",
+    "keywords": ["datepicker", "controlled", "state", "value", "onchange"]
+  },
+  {
+    "topic": "DatePicker Slots",
+    "content": "Key stylable slots for DatePicker include `base`, `selectorButton`, `selectorIcon`, `popoverContent`, `calendar`, and `timeInput`.",
+    "keywords": ["datepicker", "slots", "classnames", "style slots"]
+  },
+  {
+    "topic": "DatePicker Accessibility",
+    "content": "DatePicker combines the accessibility features of both DateInput (segmented editing) and Calendar (keyboard navigation in the popover), providing a fully accessible experience for all users.",
+    "keywords": ["datepicker", "accessibility", "a11y", "keyboard", "segments"]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "topic": "Enabling Dark Mode Manually",
+    "content": "To enable dark mode application-wide, simply add the `dark` class to your root element (e.g., `<html>` or `<body>`). For dynamic theme switching, a library is recommended.",
+    "keywords": ["dark mode", "enable", "dark class", "manual setup"]
+  },
+  {
+    "topic": "Dark Mode in Next.js (next-themes)",
+    "content": "For Next.js applications, the `next-themes` library is recommended. Install it, wrap your app in its `ThemeProvider`, and then use a switcher component to toggle themes. The provider setup varies slightly between the App and Pages directories.",
+    "keywords": ["dark mode", "next.js", "next-themes", "theme switcher", "themeprovider"]
+  },
+  {
+    "topic": "Dark Mode in Vite/CRA (@heroui/use-theme)",
+    "content": "For Vite or Create React App projects, you can use the `@heroui/use-theme` hook. Install the package and use the `useTheme` hook in a component to get and set the current theme.",
+    "keywords": ["dark mode", "vite", "create react app", "cra", "use-theme", "hook"]
+  }
+]

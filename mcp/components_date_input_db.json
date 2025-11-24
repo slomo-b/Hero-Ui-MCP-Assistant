@@ -1,0 +1,37 @@
+[
+  {
+    "topic": "DateInput Usage",
+    "content": "A DateInput allows users to enter and edit date/time values via the keyboard. Each part of the date is an individually editable segment. It uses objects from the `@internationalized/date` package for values.",
+    "keywords": ["dateinput", "usage", "date field", "time input"]
+  },
+  {
+    "topic": "DateInput States",
+    "content": "The component supports `isDisabled`, `isReadOnly`, and `isRequired` states, similar to a standard input field.",
+    "keywords": ["dateinput", "states", "disabled", "readonly", "required"]
+  },
+  {
+    "topic": "DateInput Features (Granularity, Time Zones)",
+    "content": "You can control the smallest unit displayed with `granularity` (e.g., 'day', 'minute', 'second'). It is also time zone aware when using a `ZonedDateTime` object, and you can hide the time zone with `hideTimeZone`.",
+    "keywords": ["dateinput", "features", "granularity", "time zone", "zonedDateTime"]
+  },
+  {
+    "topic": "DateInput Validation",
+    "content": "You can restrict the selectable range with `minValue` and `maxValue`. The `isInvalid` prop and `errorMessage` can be used to display validation errors.",
+    "keywords": ["dateinput", "validation", "minvalue", "maxvalue", "isinvalid", "errormessage"]
+  },
+  {
+    "topic": "DateInput Internationalization",
+    "content": "DateInput supports multiple international calendar systems and automatically formats dates based on the user's locale.",
+    "keywords": ["dateinput", "internationalization", "i18n", "locale", "calendar system"]
+  },
+  {
+    "topic": "DateInput Slots",
+    "content": "Key stylable slots include `base`, `label`, `inputWrapper`, `input` (the segments container), and `segment` for individual date parts.",
+    "keywords": ["dateinput", "slots", "classnames", "style slots", "segment"]
+  },
+  {
+    "topic": "DateInput Accessibility",
+    "content": "Each date/time unit is an individually focusable and editable segment, allowing for easy keyboard navigation and editing. It has full screen reader support with ARIA attributes.",
+    "keywords": ["dateinput", "accessibility", "a11y", "keyboard", "segments"]
+  }
+]

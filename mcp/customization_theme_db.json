@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "Theme Setup",
+    "content": "Theming in HeroUI is managed via a TailwindCSS plugin. The first step is to add the `heroui` plugin to your `tailwind.config.js` file to enable theme capabilities.",
+    "keywords": ["theme", "theming", "setup", "plugin", "tailwind.config.js"]
+  },
+  {
+    "topic": "Applying Themes",
+    "content": "To use a theme, apply CSS classes to your root element (e.g., in `main.jsx`). Use `light` or `dark` for the theme, `text-foreground` for the text color, and `bg-background` for the background color.",
+    "keywords": ["theme", "apply", "usage", "dark mode", "light mode", "foreground", "background"]
+  },
+  {
+    "topic": "Advanced Theming (Nesting and Variants)",
+    "content": "HeroUI supports nested themes, allowing different themes for different sections of your app. You can also apply styles based on the active theme using variants like `dark:bg-blue-500`.",
+    "keywords": ["theme", "nested themes", "variants", "dark:", "responsive theme"]
+  },
+  {
+    "topic": "Theme Configuration and API",
+    "content": "The `heroui` plugin can be configured with options such as `prefix`, `defaultTheme`, and `addCommonColors`. You can also define your own custom `layout` and `themes`.",
+    "keywords": ["theme", "api", "configuration", "options", "prefix", "defaultTheme", "custom theme"]
+  },
+  {
+    "topic": "Theme Color System",
+    "content": "Themes are built upon a structured type system for colors, including `ColorScale` (a scale from 50 to 900) and `ThemeColors`, which define palettes for `primary`, `secondary`, `danger`, etc.",
+    "keywords": ["theme", "types", "colors", "colorscale", "themecolors", "palette"]
+  }
+]

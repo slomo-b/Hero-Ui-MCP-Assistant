@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "Simplicity and Usability",
+    "content": "HeroUI believes in delivering simple and intuitive components. The design process is user-centered, ensuring tools are easy to understand, configure, and implement, regardless of a developer's expertise level.",
+    "keywords": ["simplicity", "usability", "intuitive", "easy to use", "design principle"]
+  },
+  {
+    "topic": "Modular Design",
+    "content": "Each component in HeroUI is designed as a standalone module. This allows developers to import and use only what they need, leading to lighter applications and faster load times.",
+    "keywords": ["modular", "standalone", "import", "performance", "bundle size", "design principle"]
+  },
+  {
+    "topic": "Customization and Flexibility",
+    "content": "HeroUI is designed with customization at its core. Integration with TailwindCSS and the Tailwind Variants library simplifies the customization process and enables extensive design possibilities.",
+    "keywords": ["customization", "flexibility", "theming", "override styles", "tailwind variants", "design principle"]
+  },
+  {
+    "topic": "Consistent API",
+    "content": "HeroUI maintains a consistent API across all components. Common attributes function identically across different components, reducing the learning curve.",
+    "keywords": ["api", "consistent", "props", "learning curve", "design principle"]
+  },
+  {
+    "topic": "Accessibility",
+    "content": "HeroUI is committed to adhering to accessibility standards (a11y), ensuring components work effectively with assistive technologies, referencing React Spectrum for best practices.",
+    "keywords": ["accessibility", "a11y", "assistive technology", "react spectrum", "design principle"]
+  },
+  {
+    "topic": "Component Slots",
+    "content": "To provide maximum flexibility, many HeroUI components have slots, allowing developers to inject custom styles or content in specific areas of a component for granular control.",
+    "keywords": ["slots", "component slots", "custom content", "granular control", "design principle"]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "topic": "Form Component Usage",
+    "content": "The `Form` component is a container for input elements. When labeled with `aria-label` or `aria-labelledby`, it becomes a navigable landmark for assistive technology.",
+    "keywords": ["form component", "usage", "container", "landmark"]
+  },
+  {
+    "topic": "Form Validation",
+    "content": "The `Form` component supports native HTML validation and server-side validation. Server errors can be passed via the `validationErrors` prop, which maps field names to error messages.",
+    "keywords": ["form component", "validation", "server-side", "validationErrors"]
+  },
+  {
+    "topic": "Form Validation Behavior",
+    "content": "The default validation behavior is `native`. This can be changed to `aria`, which shows real-time errors without blocking submission. This can be set on the `Form` or globally in the `HeroUIProvider`.",
+    "keywords": ["form component", "validation behavior", "native", "aria"]
+  }
+]

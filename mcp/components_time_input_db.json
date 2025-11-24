@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "TimeInput Usage",
+    "content": "A `TimeInput` allows users to enter and edit time values via keyboard, with each part as an individually editable segment. It uses objects from `@internationalized/date`.",
+    "keywords": ["timeinput", "usage", "time field", "segments"]
+  },
+  {
+    "topic": "TimeInput Features",
+    "content": "Key features include `granularity` ('hour', 'minute', 'second'), time zone awareness with `ZonedDateTime`, and control over the hour format with `hourCycle` (12 or 24).",
+    "keywords": ["timeinput", "features", "granularity", "timezone", "hourcycle"]
+  },
+  {
+    "topic": "TimeInput Validation",
+    "content": "You can restrict the selectable time range with `minValue` and `maxValue`. Validation is supported via the `isInvalid` and `errorMessage` props.",
+    "keywords": ["timeinput", "validation", "minvalue", "maxvalue", "isinvalid"]
+  },
+  {
+    "topic": "TimeInput Slots",
+    "content": "Key stylable slots include `base`, `label`, `inputWrapper`, `innerWrapper` (for segments), and `segment`.",
+    "keywords": ["timeinput", "slots", "classnames", "style slots"]
+  }
+]

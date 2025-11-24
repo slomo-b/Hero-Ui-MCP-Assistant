@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "Breadcrumbs Usage",
+    "content": "Breadcrumbs display a hierarchy of links. They are built using the `Breadcrumbs` and `BreadcrumbItem` components. The last item is automatically considered the current page.",
+    "keywords": ["breadcrumbs", "usage", "navigation", "hierarchy"]
+  },
+  {
+    "topic": "Breadcrumbs Styling",
+    "content": "Breadcrumbs support different `sizes`, `colors`, `variants` (solid, bordered, light), and `underline` options. The separator between items can also be customized with the `separator` prop.",
+    "keywords": ["breadcrumbs", "styling", "colors", "variants", "separator", "underline"]
+  },
+  {
+    "topic": "Breadcrumbs Collapsing",
+    "content": "For long paths, breadcrumbs can be collapsed. Use `maxItems` to set the visible limit, and `itemsBeforeCollapse` and `itemsAfterCollapse` to control how many items are shown at the start and end.",
+    "keywords": ["breadcrumbs", "collapsing", "maxitems", "ellipsis"]
+  },
+  {
+    "topic": "Breadcrumbs Controlled State",
+    "content": "You can programmatically control the current/active item by using the `isCurrent` prop on a `BreadcrumbItem` and handling the `onAction` event on the main `Breadcrumbs` component.",
+    "keywords": ["breadcrumbs", "controlled", "state", "iscurrent", "onaction"]
+  },
+  {
+    "topic": "Breadcrumbs Slots",
+    "content": "The `Breadcrumbs` component has slots like `base`, `list`, and `ellipsis`. The `BreadcrumbItem` has slots like `base`, `item`, and `separator` for granular styling.",
+    "keywords": ["breadcrumbs", "slots", "classnames", "style slots"]
+  },
+  {
+    "topic": "Breadcrumbs Accessibility",
+    "content": "Breadcrumbs are implemented as an ordered list with full keyboard support. The current page is automatically marked with `aria-current` for screen readers.",
+    "keywords": ["breadcrumbs", "accessibility", "a11y", "aria-current", "keyboard"]
+  }
+]

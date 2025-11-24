@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "Common vs. Semantic Colors",
+    "content": "HeroUI features two color types: Common Colors (e.g., blue, green), which are consistent across all themes, and Semantic Colors (e.g., primary, danger), which adapt to the currently active theme (light/dark).",
+    "keywords": ["colors", "common colors", "semantic colors", "difference", "palette"]
+  },
+  {
+    "topic": "Enabling Common Colors",
+    "content": "Common colors are disabled by default to avoid conflicts with Tailwind's native colors. You can enable them by setting `addCommonColors: true` in the `heroui` plugin options.",
+    "keywords": ["colors", "common colors", "addCommonColors", "enable"]
+  },
+  {
+    "topic": "Customizing Semantic Colors",
+    "content": "Semantic colors (primary, secondary, success, etc.) are defined inside the `themes` object of the `heroui` plugin in your `tailwind.config.js`. It is recommended to provide a full color scale from 50 to 900.",
+    "keywords": ["colors", "semantic colors", "customization", "palette", "primary"]
+  },
+  {
+    "topic": "Using Colors in JavaScript",
+    "content": "You can import `commonColors` and `semanticColors` from the `@heroui/theme` package to access color values directly in your JavaScript or TypeScript files.",
+    "keywords": ["colors", "javascript", "import", "commonColors", "semanticColors"]
+  },
+  {
+    "topic": "Using Colors with CSS Variables",
+    "content": "HeroUI generates CSS variables for all semantic colors (e.g., `--heroui-primary-500`). You can use these variables in your custom CSS files. The `heroui` prefix is customizable via the plugin options.",
+    "keywords": ["colors", "css", "css variables", "custom properties", "prefix"]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "Tabs Usage",
+    "content": "Tabs organize content into multiple sections. They are composed of `Tabs` and `Tab` components and support both static and dynamic collections of items.",
+    "keywords": ["tabs", "usage", "sections", "panels", "dynamic"]
+  },
+  {
+    "topic": "Tabs Styling and Placement",
+    "content": "Tabs support different `variants` (solid, bordered, light, underlined), `colors`, `sizes`, and `radius`. The tab list can be positioned on the `top`, `bottom`, `start`, or `end` with the `placement` prop or made `isVertical`.",
+    "keywords": ["tabs", "styling", "variants", "placement", "vertical"]
+  },
+  {
+    "topic": "Tabs with Icons",
+    "content": "You can add icons to `Tab` components by using the `title` prop and passing a component that includes an icon.",
+    "keywords": ["tabs", "icons", "startcontent", "endcontent"]
+  },
+  {
+    "topic": "Tabs Controlled State",
+    "content": "Tabs can be a controlled component. Use the `selectedKey` prop to set the active tab and the `onSelectionChange` event to handle changes.",
+    "keywords": ["tabs", "controlled", "state", "selectedkey", "onselectionchange"]
+  },
+  {
+    "topic": "Tabs with Routing",
+    "content": "Tab components can be rendered as links by passing an `href` prop, making them compatible with client-side routers. See the Routing guide for setup.",
+    "keywords": ["tabs", "routing", "links", "href"]
+  },
+  {
+    "topic": "Tabs Slots",
+    "content": "Key stylable slots are `base`, `tabList`, `tab`, `tabContent`, `cursor` (for the animation), and `panel`.",
+    "keywords": ["tabs", "slots", "classnames", "style slots"]
+  }
+]

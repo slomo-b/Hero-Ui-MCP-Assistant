@@ -1,0 +1,17 @@
+[
+  {
+    "topic": "How to Customize Themes",
+    "content": "You can customize the default themes by modifying Layout and Color tokens. Layout tokens can be customized globally across all themes, while Color tokens are typically customized for a specific theme (e.g., dark or light) within your `tailwind.config.js`.",
+    "keywords": ["customize theme", "how to", "overview", "customization"]
+  },
+  {
+    "topic": "Global Layout Customization Example",
+    "content": "To change layout tokens like `radius`, `borderWidth`, and `disabledOpacity` for all themes at once, define them in the main `layout` object of the `heroui` plugin. These changes will affect all components.",
+    "keywords": ["customize layout", "global layout", "border radius", "border width", "disabled opacity"]
+  },
+  {
+    "topic": "Theme-Specific Color Customization Example",
+    "content": "To change semantic colors for a specific theme, add a `colors` object within that theme's definition. For example, to change the `primary` color for the dark theme, you would modify `themes.dark.colors.primary`.",
+    "keywords": ["customize colors", "theme colors", "primary color", "dark theme colors"]
+  }
+]

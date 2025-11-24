@@ -1,0 +1,17 @@
+[
+  {
+    "topic": "Skeleton Usage",
+    "content": "A `Skeleton` is a placeholder used to show a loading state. By default, it takes the shape of its children. It can also be used as a standalone component by applying classes to it directly.",
+    "keywords": ["skeleton", "usage", "loading", "placeholder", "shape"]
+  },
+  {
+    "topic": "Skeleton Loaded State",
+    "content": "You can control when the skeleton animation stops and the actual content is revealed by using the `isLoaded` prop. When `isLoaded` is true, the children are shown.",
+    "keywords": ["skeleton", "loaded", "isloaded", "animation"]
+  },
+  {
+    "topic": "Skeleton Slots",
+    "content": "The Skeleton component has two slots: `base` (for the animated placeholder) and `content` (for the actual children when loaded).",
+    "keywords": ["skeleton", "slots", "classnames", "style slots"]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "Navbar Usage and Composition",
+    "content": "The `Navbar` is a responsive navigation header. It is composed of `Navbar`, `NavbarBrand`, `NavbarContent`, `NavbarItem`, and components for a collapsible menu (`NavbarMenuToggle`, `NavbarMenu`, `NavbarMenuItem`).",
+    "keywords": ["navbar", "usage", "navigation", "header", "composition"]
+  },
+  {
+    "topic": "Navbar Positioning",
+    "content": "The Navbar is `sticky` by default but can be set to `static`. The `shouldHideOnScroll` prop allows it to hide automatically when the user scrolls down.",
+    "keywords": ["navbar", "position", "sticky", "static", "hide on scroll"]
+  },
+  {
+    "topic": "Navbar Menu",
+    "content": "The Navbar includes a collapsible menu for mobile devices, controlled by `NavbarMenuToggle`. Its state can be controlled with the `isMenuOpen` and `onMenuOpenChange` props.",
+    "keywords": ["navbar", "menu", "mobile menu", "collapsible", "toggle"]
+  },
+  {
+    "topic": "Navbar Styling",
+    "content": "A bottom border can be added with `isBordered`. The default blur effect can be disabled with `isBlurred={false}`. Active items can be styled using the `[data-active=true]` attribute.",
+    "keywords": ["navbar", "styling", "bordered", "blur", "active item"]
+  },
+  {
+    "topic": "Navbar Slots",
+    "content": "Key stylable slots include `base`, `wrapper`, `brand`, `content`, `item`, `toggle`, `menu`, and `menuItem`.",
+    "keywords": ["navbar", "slots", "classnames", "style slots"]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "topic": "Labels and Help Text",
+    "content": "HeroUI forms should use the `Label` component for clear, accessible labeling. Help text can be added to provide additional context or error messages, which are announced by assistive technologies.",
+    "keywords": ["forms", "label", "help text", "accessibility", "a11y"]
+  },
+  {
+    "topic": "Form Submission",
+    "content": "By default, forms submit with a page refresh. You can use `event.preventDefault()` and the `FormData` API for custom handling. Frameworks like Next.js and Remix provide their own form submission solutions.",
+    "keywords": ["forms", "submit", "submission", "onsubmit", "formdata"]
+  },
+  {
+    "topic": "Uncontrolled vs Controlled Forms",
+    "content": "HeroUI form components are uncontrolled by default, getting data on submit. To manage state in real-time (e.g., for live validation), you can make them controlled using the `useState` hook.",
+    "keywords": ["forms", "controlled", "uncontrolled", "usestate", "state management"]
+  },
+  {
+    "topic": "Built-in Validation",
+    "content": "HeroUI supports native HTML validation attributes like `isRequired`, `minLength`, `pattern`, and types like `email`. Set `validationBehavior=\"aria\"` to enable ARIA validation without blocking form submission.",
+    "keywords": ["forms", "validation", "built-in", "native", "isrequired", "pattern", "aria"]
+  },
+  {
+    "topic": "Custom and Real-time Validation",
+    "content": "For custom logic, provide a function to the `validate` prop. For real-time validation (as the user types), use a controlled component and pass validation status to the `isInvalid` and `errorMessage` props.",
+    "keywords": ["forms", "validation", "custom validation", "real-time", "isinvalid", "errormessage"]
+  },
+  {
+    "topic": "Server-Side Validation",
+    "content": "Display server-side errors by passing an object to the `validationErrors` prop on the `Form` component. This works well with schema libraries like Zod.",
+    "keywords": ["forms", "validation", "server-side", "server validation", "zod", "validationerrors"]
+  },
+  {
+    "topic": "React Hook Form Integration",
+    "content": "To integrate with libraries like React Hook Form, use the `Controller` component. It allows the library to manage the field's state and validation while rendering a HeroUI component.",
+    "keywords": ["forms", "react hook form", "formik", "controller", "form library"]
+  }
+]

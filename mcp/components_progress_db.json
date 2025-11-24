@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Progress Usage",
+    "content": "The `Progress` component displays a linear progress bar. It can be determinate (by passing a `value`) or `isIndeterminate`. It's important to provide an `aria-label` for accessibility if no visible `label` is present.",
+    "keywords": ["progress", "usage", "progress bar", "loading", "indeterminate"]
+  },
+  {
+    "topic": "Progress Styling",
+    "content": "Progress bars can be styled with different `sizes` and `colors`. A `isStriped` prop can be added for a striped appearance.",
+    "keywords": ["progress", "styling", "colors", "size", "striped"]
+  },
+  {
+    "topic": "Progress Labels",
+    "content": "You can add a `label` to the progress bar. To display the current value, use the `showValueLabel` prop. The format of the value can be customized with `formatOptions`.",
+    "keywords": ["progress", "label", "value", "showValueLabel", "formatOptions"]
+  },
+  {
+    "topic": "Progress Slots",
+    "content": "Key stylable slots include `base`, `track`, `indicator`, `label`, and `value` (for the value label).",
+    "keywords": ["progress", "slots", "classnames", "style slots"]
+  }
+]

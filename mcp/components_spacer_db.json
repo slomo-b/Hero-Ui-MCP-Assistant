@@ -1,0 +1,7 @@
+[
+  {
+    "topic": "Spacer Usage",
+    "content": "A `Spacer` is a simple component used to add space between elements. The amount of horizontal space is set with the `x` prop and vertical space with the `y` prop. The values are based on the Tailwind CSS spacing scale.",
+    "keywords": ["spacer", "usage", "space", "margin", "gap"]
+  }
+]

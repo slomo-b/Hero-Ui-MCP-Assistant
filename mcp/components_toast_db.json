@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Toast Usage",
+    "content": "Toasts are temporary notifications. They are not rendered directly but triggered via the `addToast` function. The application must be wrapped in a `ToastProvider`.",
+    "keywords": ["toast", "usage", "notification", "addtoast", "toastprovider"]
+  },
+  {
+    "topic": "Toast Styling and Placement",
+    "content": "Toasts support `colors`, `variants`, and `radius`. The position on the screen is controlled by the `placement` prop on the `ToastProvider`.",
+    "keywords": ["toast", "styling", "placement", "colors", "variants"]
+  },
+  {
+    "topic": "Toast Behavior",
+    "content": "Toasts automatically dismiss after a `timeout`. They can be dismissed manually if a `closeIcon` or `endContent` is provided. They also support promises to show a loading state.",
+    "keywords": ["toast", "behavior", "timeout", "dismiss", "promise", "loading"]
+  },
+  {
+    "topic": "Toast Slots",
+    "content": "Key stylable slots include `base`, `title`, `description`, `icon`, `progressIndicator`, and `closeButton`.",
+    "keywords": ["toast", "slots", "classnames", "style slots"]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "Checkbox Usage and States",
+    "content": "Checkboxes allow users to select one or more items. Key states include `isDisabled`, `isIndeterminate` (for a mixed selection state), and `lineThrough` for a strikethrough effect on the label.",
+    "keywords": ["checkbox", "usage", "disabled", "indeterminate", "line-through"]
+  },
+  {
+    "topic": "Checkbox Styling",
+    "content": "Checkboxes can be styled with various `sizes`, `colors`, and `radius` options. The check icon can also be replaced with a custom component passed to the `icon` prop.",
+    "keywords": ["checkbox", "styling", "colors", "size", "radius", "custom icon"]
+  },
+  {
+    "topic": "Checkbox Controlled State",
+    "content": "A Checkbox can be a controlled component. Use the `isSelected` prop to set its state and the `onValueChange` event to handle changes.",
+    "keywords": ["checkbox", "controlled", "state", "isselected", "onvaluechange"]
+  },
+  {
+    "topic": "Checkbox Slots",
+    "content": "The Checkbox has several stylable slots: `base` (the main wrapper), `wrapper` (inner container), `icon`, and `label`. These can be customized using the `classNames` prop.",
+    "keywords": ["checkbox", "slots", "classnames", "style slots"]
+  },
+  {
+    "topic": "Checkbox Customization and Hooks",
+    "content": "For advanced customization, you can use the `useCheckbox` hook to build a completely custom implementation while retaining the core logic and accessibility features.",
+    "keywords": ["checkbox", "customization", "hook", "usecheckbox"]
+  },
+  {
+    "topic": "Checkbox Accessibility",
+    "content": "The Checkbox is built on a native HTML `<input>` element, ensuring full browser and assistive technology support. It handles keyboard events (Tab, Space) and has proper ARIA attributes.",
+    "keywords": ["checkbox", "accessibility", "a11y", "keyboard", "input"]
+  }
+]

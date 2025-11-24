@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "Select Usage",
+    "content": "A `Select` displays a collapsible list of options. It is composed of `Select`, `SelectItem`, and `SelectSection`. It supports both static and dynamic collections of items.",
+    "keywords": ["select", "usage", "dropdown", "options", "static", "dynamic"]
+  },
+  {
+    "topic": "Select Selection Modes",
+    "content": "You can allow single selection (default) or multiple selection by setting `selectionMode=\"multiple\"`. Use `onSelectionChange` or `onChange` to handle value changes.",
+    "keywords": ["select", "selection", "multiple", "single", "onchange"]
+  },
+  {
+    "topic": "Select Features",
+    "content": "Key features include disabled items (`disabledKeys`), `startContent`/`endContent`, item descriptions, and a clear button (`isClearable`). The displayed value can be customized with `renderValue`.",
+    "keywords": ["select", "features", "disabled", "icons", "description", "clearable", "rendervalue"]
+  },
+  {
+    "topic": "Select Asynchronous Loading & Virtualization",
+    "content": "For large datasets, `Select` supports asynchronous loading of items and virtualization (`isVirtualized`) for improved performance.",
+    "keywords": ["select", "asynchronous", "async", "virtualization", "performance"]
+  },
+  {
+    "topic": "Select Controlled State",
+    "content": "You can control the selected items via the `selectedKeys` prop and the open state of the popover via the `isOpen` prop.",
+    "keywords": ["select", "controlled", "state", "selectedkeys", "isopen"]
+  },
+  {
+    "topic": "Select Slots",
+    "content": "Key stylable slots include `base`, `label`, `trigger`, `value`, `listbox`, and `popoverContent`.",
+    "keywords": ["select", "slots", "classnames", "style slots"]
+  }
+]

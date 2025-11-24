@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Avatar Usage and Fallbacks",
+    "content": "The Avatar component is used to represent a user. It displays an image from a `src`. If the image fails to load, it falls back to showing initials generated from the `name` prop, or a default icon. A custom fallback can also be provided.",
+    "keywords": ["avatar", "usage", "fallback", "initials", "image"]
+  },
+  {
+    "topic": "AvatarGroup",
+    "content": "The `AvatarGroup` component is used to display a group of avatars. You can limit the number of visible avatars with the `max` prop, and it will render a count for the remaining ones.",
+    "keywords": ["avatar", "group", "avatargroup", "max", "count"]
+  },
+  {
+    "topic": "Avatar Styling",
+    "content": "Avatars can be styled with props like `color`, `radius`, `size`, and `isBordered`. For more granular control, use the `classNames` prop to style individual slots like `base`, `img`, `fallback`, `name`, and `icon`.",
+    "keywords": ["avatar", "styling", "bordered", "radius", "size", "slots"]
+  },
+  {
+    "topic": "Avatar Customization",
+    "content": "For advanced cases, you can use the `useAvatar` hook to build a completely custom implementation. The logic for generating initials can also be customized with the `getInitials` prop.",
+    "keywords": ["avatar", "customization", "useavatar", "getinitials", "hook"]
+  }
+]

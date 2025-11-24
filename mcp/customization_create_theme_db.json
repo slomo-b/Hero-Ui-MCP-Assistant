@@ -1,0 +1,17 @@
+[
+  {
+    "topic": "How to Create a New Theme",
+    "content": "To create a new theme, add a new key to the `themes` object in your `tailwind.config.js` file. You can define custom `layout` and `colors` for this new theme.",
+    "keywords": ["create theme", "new theme", "custom theme", "tailwind.config.js"]
+  },
+  {
+    "topic": "Applying a Custom Theme",
+    "content": "To apply your new theme, add its name as a CSS class to a root element, such as `<html>` or `<body>`. For example, a theme named `purple-dark` would be applied with `<html class=\"purple-dark\">`.",
+    "keywords": ["apply theme", "use theme", "custom theme", "css class"]
+  },
+  {
+    "topic": "Effect on Components",
+    "content": "Once a new theme is applied, all components that use semantic colors (e.g., `color=\"primary\"`) will automatically adopt the new color palette defined in your custom theme.",
+    "keywords": ["theme effect", "component styling", "semantic colors", "primary color"]
+  }
+]

@@ -1,0 +1,17 @@
+ [
+  {
+    "topic": "Snippet Usage",
+    "content": "A `Snippet` is used to display inline or multiline code snippets. It features a copy button by default, which can be hidden. The symbol prefix (default '$') can be customized or hidden.",
+    "keywords": ["snippet", "usage", "code snippet", "copy", "multiline"]
+  },
+  {
+    "topic": "Snippet Styling",
+    "content": "Snippets can be styled with `size`, `color`, and `variant` props. The copy and check icons can be customized, and the tooltip on the copy button can be configured.",
+    "keywords": ["snippet", "styling", "colors", "variants", "tooltip"]
+  },
+  {
+    "topic": "Snippet Slots",
+    "content": "Key stylable slots are `base`, `pre` (for the code element), `symbol`, `copyButton`, `copyIcon`, and `checkIcon`.",
+    "keywords": ["snippet", "slots", "classnames", "style slots"]
+  }
+]

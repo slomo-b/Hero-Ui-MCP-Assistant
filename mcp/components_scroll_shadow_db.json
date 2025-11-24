@@ -1,0 +1,12 @@
+[
+  {
+    "topic": "ScrollShadow Usage",
+    "content": "The `ScrollShadow` component applies top and bottom (or left and right) shadows to indicate that content is scrollable. It wraps the scrollable content.",
+    "keywords": ["scrollshadow", "usage", "scroll", "shadow", "overflow"]
+  },
+  {
+    "topic": "ScrollShadow Customization",
+    "content": "You can change the `orientation` to `horizontal`, hide the scrollbar with `hideScrollBar`, and adjust the `size` and `offset` of the shadow effect.",
+    "keywords": ["scrollshadow", "customization", "orientation", "hidescrollbar", "size", "offset"]
+  }
+]

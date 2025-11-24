@@ -1,0 +1,37 @@
+[
+  {
+    "topic": "DateRangePicker Usage",
+    "content": "A `DateRangePicker` combines two `DateInput` fields with a `RangeCalendar` in a popover, allowing users to select a start and end date. It uses objects from the `@internationalized/date` package for values.",
+    "keywords": ["daterangepicker", "usage", "date range", "calendar", "popover"]
+  },
+  {
+    "topic": "DateRangePicker with Time",
+    "content": "To allow users to select a time range, provide a `CalendarDateTime` or `ZonedDateTime` object as the value and set the `granularity` to 'minute' or 'second'.",
+    "keywords": ["daterangepicker", "time", "time range", "granularity", "zonedDateTime"]
+  },
+  {
+    "topic": "DateRangePicker Features",
+    "content": "Key features include `isDisabled`, `isReadOnly`, `isRequired`, `minValue`, `maxValue`, `isDateUnavailable`, and `visibleMonths` to show multiple months in the popover.",
+    "keywords": ["daterangepicker", "features", "disabled", "readonly", "minvalue", "maxvalue"]
+  },
+  {
+    "topic": "Non-Contiguous Ranges",
+    "content": "The `allowsNonContiguousRanges` prop enables selecting a range even if there are unavailable dates in between. The component still emits a single range value.",
+    "keywords": ["daterangepicker", "non-contiguous", "unavailable dates", "range selection"]
+  },
+  {
+    "topic": "DateRangePicker Controlled State",
+    "content": "A DateRangePicker can be a controlled component. Use the `value` prop to set its value and the `onChange` event to handle changes.",
+    "keywords": ["daterangepicker", "controlled", "state", "value", "onchange"]
+  },
+  {
+    "topic": "DateRangePicker Slots",
+    "content": "Key stylable slots for DateRangePicker include `base`, `selectorButton`, `popoverContent`, `calendar`, and `timeInput`.",
+    "keywords": ["daterangepicker", "slots", "classnames", "style slots"]
+  },
+  {
+    "topic": "DateRangePicker Accessibility",
+    "content": "DateRangePicker is fully accessible, combining the features of DateInput (segmented editing) and a range-selecting Calendar (keyboard navigation in the popover).",
+    "keywords": ["daterangepicker", "accessibility", "a11y", "keyboard", "segments"]
+  }
+]

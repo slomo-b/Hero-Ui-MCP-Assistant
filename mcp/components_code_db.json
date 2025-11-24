@@ -1,0 +1,12 @@
+[
+  {
+    "topic": "Code Usage",
+    "content": "The `Code` component is used to display inline code snippets. You simply wrap your code string within the component.",
+    "keywords": ["code", "usage", "inline code", "snippet"]
+  },
+  {
+    "topic": "Code Styling",
+    "content": "The appearance of the `Code` component can be customized using the `size`, `color`, and `radius` props.",
+    "keywords": ["code", "styling", "size", "color", "radius"]
+  }
+]

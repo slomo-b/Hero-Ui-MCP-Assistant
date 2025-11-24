@@ -1,0 +1,12 @@
+[
+  {
+    "topic": "Kbd (Keyboard Key) Usage",
+    "content": "The `Kbd` component is used to display a keyboard key or a combination of keys. The keys to display are passed via the `keys` prop (e.g., `keys={['command']}`). The children of the component represent the main key (e.g., `K`).",
+    "keywords": ["kbd", "keyboard key", "usage", "shortcut", "keys"]
+  },
+  {
+    "topic": "Kbd Styling and Slots",
+    "content": "The component has three stylable slots: `base` (the main wrapper), `abbr` (the key symbols wrapper), and `content` (the children wrapper).",
+    "keywords": ["kbd", "styling", "slots", "classnames"]
+  }
+]

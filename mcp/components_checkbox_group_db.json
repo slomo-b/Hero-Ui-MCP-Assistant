@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "CheckboxGroup Usage",
+    "content": "A `CheckboxGroup` is used to group multiple `Checkbox` components. It allows users to select one or more items from a list of choices. The orientation can be set to `horizontal` or `vertical`.",
+    "keywords": ["checkboxgroup", "usage", "group", "horizontal", "vertical"]
+  },
+  {
+    "topic": "CheckboxGroup Controlled State",
+    "content": "A CheckboxGroup can be a controlled component. Use the `value` prop (an array of selected values) and the `onValueChange` event to manage its state.",
+    "keywords": ["checkboxgroup", "controlled", "state", "value", "onvaluechange"]
+  },
+  {
+    "topic": "CheckboxGroup Validation",
+    "content": "The CheckboxGroup supports validation. You can use the `isInvalid` prop to mark the group as invalid and provide an `errorMessage` to guide the user.",
+    "keywords": ["checkboxgroup", "validation", "isinvalid", "errormessage", "invalid"]
+  },
+  {
+    "topic": "CheckboxGroup Slots",
+    "content": "The CheckboxGroup has several stylable slots: `base` (the root wrapper), `wrapper` (wraps the checkboxes), `label`, `description`, and `errorMessage`.",
+    "keywords": ["checkboxgroup", "slots", "classnames", "style slots"]
+  },
+  {
+    "topic": "CheckboxGroup Customization and Hooks",
+    "content": "For advanced customization, you can use the `useCheckboxGroup` hook to build a completely custom implementation while retaining the core logic and accessibility features.",
+    "keywords": ["checkboxgroup", "customization", "hook", "usecheckboxgroup"]
+  }
+]

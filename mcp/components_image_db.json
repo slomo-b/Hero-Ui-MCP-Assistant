@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "Image Usage",
+    "content": "The `Image` component is used to display images. It supports standard image props like `src`, `alt`, `width`, and `height`.",
+    "keywords": ["image", "usage", "src", "alt"]
+  },
+  {
+    "topic": "Image Fallback",
+    "content": "You can provide a `fallbackSrc` prop to display a fallback image if the main `src` is loading or fails to load.",
+    "keywords": ["image", "fallback", "fallbacksrc", "loading", "error"]
+  },
+  {
+    "topic": "Image Effects",
+    "content": "The Image component has built-in effects. `isBlurred` creates a blurred background effect. `isZoomed` makes the image zoom in on hover.",
+    "keywords": ["image", "effects", "blur", "zoom", "isblurred", "iszoomed"]
+  },
+  {
+    "topic": "Image Loading Animation",
+    "content": "By default, the Image component shows a skeleton animation while the image is loading, followed by a fade-in animation once loaded. This can be disabled with `disableSkeleton`.",
+    "keywords": ["image", "loading", "animation", "skeleton"]
+  },
+  {
+    "topic": "Image with Next.js",
+    "content": "You can use the optimized Next.js Image component with HeroUI's Image by passing it to the `as` prop or wrapping it.",
+    "keywords": ["image", "next.js", "nextjs image", "optimization"]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Chip Usage and Content",
+    "content": "A Chip is a small block of information. It can contain text, an `avatar`, or custom `startContent` and `endContent` (like icons).",
+    "keywords": ["chip", "usage", "content", "avatar", "icons"]
+  },
+  {
+    "topic": "Chip Styling",
+    "content": "Chips can be styled with various `sizes`, `colors`, `radius`, and `variants` (solid, bordered, light, flat, faded, shadow, dot).",
+    "keywords": ["chip", "styling", "colors", "variants", "size", "radius"]
+  },
+  {
+    "topic": "Closable Chip",
+    "content": "A Chip can be made closable or dismissible by providing an `onClose` function. This will render a close button. The close icon can be customized via the `endContent` prop.",
+    "keywords": ["chip", "closable", "dismiss", "onclose", "remove"]
+  },
+  {
+    "topic": "Chip Slots",
+    "content": "The Chip has several stylable slots: `base` (the container), `content`, `dot` (for the dot variant), `avatar`, and `closeButton`.",
+    "keywords": ["chip", "slots", "classnames", "style slots"]
+  }
+]

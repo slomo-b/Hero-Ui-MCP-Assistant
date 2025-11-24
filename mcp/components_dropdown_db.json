@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "Dropdown Usage",
+    "content": "A Dropdown displays a list of actions or options. It's composed of `Dropdown`, `DropdownTrigger`, `DropdownMenu`, and `DropdownItem`. It supports both static and dynamic collections of items.",
+    "keywords": ["dropdown", "usage", "menu", "actions", "options"]
+  },
+  {
+    "topic": "Dropdown Selection",
+    "content": "Dropdown supports different selection modes: `none`, `single`, or `multiple`. Use `onAction` to handle item activation and `onSelectionChange` for selection.",
+    "keywords": ["dropdown", "selection", "onaction", "onselectionchange", "single", "multiple"]
+  },
+  {
+    "topic": "Dropdown Features",
+    "content": "Items can have `startContent`/`endContent` (for icons), a `description`, and a `shortcut`. You can group items with `DropdownSection`. Any component can be a trigger by wrapping it in `DropdownTrigger`.",
+    "keywords": ["dropdown", "features", "icons", "description", "shortcut", "sections"]
+  },
+  {
+    "topic": "Dropdown Styling",
+    "content": "Dropdown items have `variants` for hover effects. The backdrop of the popover can be changed (`transparent`, `opaque`, `blur`). Custom styles can be applied to all item slots via `itemClasses` on the `DropdownMenu`.",
+    "keywords": ["dropdown", "styling", "variants", "backdrop", "slots", "itemclasses"]
+  },
+  {
+    "topic": "Dropdown Accessibility",
+    "content": "The Dropdown is fully accessible with keyboard navigation (Arrow keys, Enter, Esc) and ARIA attributes for menus.",
+    "keywords": ["dropdown", "accessibility", "a11y", "keyboard", "aria"]
+  }
+]

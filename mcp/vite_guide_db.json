@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Vite Requirements",
+    "content": "To use HeroUI with Vite, you need Vite 2+, React 18+, Tailwind CSS v4, and Framer Motion 11.9+.",
+    "keywords": ["vite", "requirements", "prerequisites"]
+  },
+  {
+    "topic": "Vite New Project Setup",
+    "content": "The recommended way to start a new Vite project is by using the HeroUI CLI (`pnpm create @heroui`) or the official HeroUI + Vite template (`pnpm create vite@latest --template heroui`).",
+    "keywords": ["vite", "new project", "setup", "cli", "template"]
+  },
+  {
+    "topic": "Vite Installation (Existing Project)",
+    "content": "For an existing Vite project, you can use the CLI to add components (`pnpm dlx @heroui/cli add <component>`) or perform a manual installation by adding dependencies and configuring Tailwind CSS.",
+    "keywords": ["vite", "installation", "existing project", "manual setup"]
+  },
+  {
+    "topic": "Vite Provider Setup",
+    "content": "After manual installation in a Vite project, you must set up the `HeroUIProvider` at the root of your application. This is typically done in `src/main.jsx` or `src/main.tsx` by wrapping your `<App />` component.",
+    "keywords": ["vite", "provider", "herouiprovider", "main.jsx", "main.tsx"]
+  }
+]

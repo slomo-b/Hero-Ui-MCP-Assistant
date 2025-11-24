@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Input Usage and States",
+    "content": "An `Input` is a text field for user input. It supports standard states like `isDisabled`, `isReadOnly`, and `isRequired`. A clear button can be added with `isClearable`.",
+    "keywords": ["input", "usage", "text field", "disabled", "readonly", "clearable"]
+  },
+  {
+    "topic": "Input Styling",
+    "content": "Inputs can be styled with `variants`, `colors`, `sizes`, and `radius`. The `labelPlacement` prop controls the label's position. `startContent` and `endContent` can be used for icons.",
+    "keywords": ["input", "styling", "variants", "colors", "labelPlacement", "icons"]
+  },
+  {
+    "topic": "Input Validation",
+    "content": "Input supports native HTML validation (`minLength`, `pattern`, `type='email'`). Custom logic can be provided via the `validate` prop. Real-time validation is possible with controlled components and the `isInvalid` prop.",
+    "keywords": ["input", "validation", "native validation", "custom validation", "isinvalid"]
+  },
+  {
+    "topic": "Input Slots and Customization",
+    "content": "Key stylable slots are `base`, `label`, `inputWrapper`, `input`, and `errorMessage`. For advanced cases, the `useInput` hook allows creating a custom input component.",
+    "keywords": ["input", "slots", "classnames", "customization", "useinput"]
+  }
+]

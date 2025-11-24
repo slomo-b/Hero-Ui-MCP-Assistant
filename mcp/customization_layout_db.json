@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Layout Configuration",
+    "content": "Layout customization is done within the `heroui` plugin in your `tailwind.config.js`. You can define a common `layout` object for all themes, or specify a different `layout` object inside each theme (e.g., for light and dark modes).",
+    "keywords": ["layout", "customization", "configuration", "tailwind.config.js"]
+  },
+  {
+    "topic": "Default Layout Tokens",
+    "content": "HeroUI provides default layout tokens for consistent spacing and sizing. These include `dividerWeight`, `disabledOpacity`, `fontSize`, `lineHeight`, `radius`, and `borderWidth`.",
+    "keywords": ["layout", "tokens", "defaults", "fontsize", "radius", "borderwidth"]
+  },
+  {
+    "topic": "Theme-Specific Layout Options",
+    "content": "Some layout options, like `hoverOpacity` and `boxShadow`, are often defined per-theme to adapt to different color schemes (e.g., light vs. dark).",
+    "keywords": ["layout", "theme-specific", "boxshadow", "hoveropacity", "dark mode layout"]
+  },
+  {
+    "topic": "Layout CSS Variables",
+    "content": "HeroUI automatically creates CSS variables for each layout token (e.g., `--heroui-radius-small`). The prefix (`heroui` by default) can be changed in the plugin options.",
+    "keywords": ["layout", "css variables", "prefix", "custom properties"]
+  }
+]

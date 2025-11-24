@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "Listbox Usage (Static vs. Dynamic)",
+    "content": "A `Listbox` displays a list of options. It supports static items defined in JSX (`ListboxItem`) and dynamic items from an external data source passed to the `items` prop.",
+    "keywords": ["listbox", "usage", "static", "dynamic", "items"]
+  },
+  {
+    "topic": "Listbox Selection",
+    "content": "Listbox supports `single` or `multiple` selection modes. Use `onAction` to handle item activation and `onSelectionChange` for selection.",
+    "keywords": ["listbox", "selection", "onaction", "onselectionchange", "single", "multiple"]
+  },
+  {
+    "topic": "Listbox Features",
+    "content": "Items can have `startContent`/`endContent` (for icons) and a `description`. You can group items with `ListboxSection` and add `topContent` or `bottomContent` to the list.",
+    "keywords": ["listbox", "features", "icons", "description", "sections"]
+  },
+  {
+    "topic": "Listbox Virtualization",
+    "content": "For long lists, virtualization can be enabled with the `isVirtualized` prop for improved performance.",
+    "keywords": ["listbox", "virtualization", "performance", "long lists", "isvirtualized"]
+  },
+  {
+    "topic": "Listbox Slots",
+    "content": "Key stylable slots for `Listbox` are `base` and `list`. For `ListboxItem`, slots include `base`, `title`, `description`, and `selectedIcon`.",
+    "keywords": ["listbox", "slots", "classnames", "style slots"]
+  },
+  {
+    "topic": "Listbox Accessibility",
+    "content": "The Listbox is fully accessible with keyboard navigation (Arrow keys, Home/End, typeahead) and ARIA roles.",
+    "keywords": ["listbox", "accessibility", "a11y", "keyboard", "aria"]
+  }
+]

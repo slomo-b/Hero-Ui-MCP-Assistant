@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "Card Usage and Composition",
+    "content": "A Card is a container for content and actions about a single subject. It is composed of `CardHeader`, `CardBody`, and `CardFooter` components. You can compose it with other components like `Image` and `Divider`.",
+    "keywords": ["card", "usage", "composition", "cardheader", "cardbody", "cardfooter"]
+  },
+  {
+    "topic": "Card as a Button",
+    "content": "By adding the `isPressable` prop, the Card becomes interactive and behaves like a button. You should use the `onPress` event handler for click actions.",
+    "keywords": ["card", "pressable", "clickable", "button", "onpress"]
+  },
+  {
+    "topic": "Card Visual Effects",
+    "content": "Cards support several visual effects. `isBlurred` applies a blur effect to the card's background. `isFooterBlurred` applies a blur effect only to the footer, which is useful for overlays on images.",
+    "keywords": ["card", "visual effects", "blur", "blurred", "footer blurred"]
+  },
+  {
+    "topic": "Card Styling",
+    "content": "The visual appearance of a Card can be customized with `shadow` and `radius` props. For more specific styling, you can use the `classNames` prop to target the `base`, `header`, `body`, and `footer` slots.",
+    "keywords": ["card", "styling", "shadow", "radius", "slots", "classnames"]
+  },
+  {
+    "topic": "Card with Cover Image",
+    "content": "To use an `Image` as a cover for the card, place it directly inside the `Card` component, outside of the `CardBody`.",
+    "keywords": ["card", "image", "cover image", "background image"]
+  }
+]

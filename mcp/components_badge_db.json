@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "Badge Usage and Content",
+    "content": "The Badge component is used as a status descriptor or numerical value for other UI elements. The content can be a number, string, or a custom React node. It can also be rendered as a dot by setting `isDot`.",
+    "keywords": ["badge", "usage", "content", "dot", "status"]
+  },
+  {
+    "topic": "Badge Styling (Colors, Variants, Shapes)",
+    "content": "Badges can be styled with multiple `colors`, `variants` (solid, flat, faded, shadow), `sizes`, and `shapes` (circle, rectangle). The outline can be disabled with `showOutline={false}`.",
+    "keywords": ["badge", "styling", "colors", "variants", "shape", "size"]
+  },
+  {
+    "topic": "Badge Placement",
+    "content": "The position of the badge relative to its child element is controlled by the `placement` prop, which accepts values like `top-right`, `top-left`, `bottom-right`, and `bottom-left`.",
+    "keywords": ["badge", "placement", "position", "top-right"]
+  },
+  {
+    "topic": "Badge Visibility",
+    "content": "You can programmatically control the visibility of the badge by using the `isInvisible` prop.",
+    "keywords": ["badge", "visibility", "hide", "show", "isinvisible"]
+  },
+  {
+    "topic": "Badge Slots",
+    "content": "The Badge has two stylable slots: `base` (the container) and `badge` (the content wrapper). These can be customized using the `classNames` prop.",
+    "keywords": ["badge", "slots", "classnames", "style slots"]
+  },
+  {
+    "topic": "Badge Accessibility",
+    "content": "It is important not to rely solely on the badge's visual content for meaning. Provide a comprehensive description for screen readers using an `aria-label` on the element the badge is attached to.",
+    "keywords": ["badge", "accessibility", "a11y", "aria-label"]
+  }
+]

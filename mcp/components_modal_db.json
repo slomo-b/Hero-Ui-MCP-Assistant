@@ -1,0 +1,27 @@
+[
+  {
+    "topic": "Modal Usage",
+    "content": "A `Modal` is a dialog that requires user attention. It is composed of `Modal`, `ModalContent`, `ModalHeader`, `ModalBody`, and `ModalFooter`.",
+    "keywords": ["modal", "usage", "dialog", "popup", "overlay"]
+  },
+  {
+    "topic": "Modal Behavior",
+    "content": "By default, a modal is dismissable (on Esc or overlay click), but this can be disabled. It blocks interaction with the content behind it and traps focus within itself for accessibility.",
+    "keywords": ["modal", "behavior", "dismissable", "focus trap", "inert"]
+  },
+  {
+    "topic": "Modal Placement and Scrolling",
+    "content": "The modal's position can be set via the `placement` prop (e.g., 'center', 'top'). The `scrollBehavior` prop controls whether the content inside the modal or the page behind it scrolls.",
+    "keywords": ["modal", "placement", "scrolling", "scrollbehavior"]
+  },
+  {
+    "topic": "Modal Styling",
+    "content": "The `backdrop` can be `transparent`, `opaque`, or `blur`. The enter/exit animations can be customized with `motionProps`. The new `isDraggable` prop allows the modal to be moved by dragging its header.",
+    "keywords": ["modal", "styling", "backdrop", "animation", "motionprops", "draggable"]
+  },
+  {
+    "topic": "Modal Accessibility",
+    "content": "The Modal is fully accessible, hiding background content from screen readers, managing focus, and preventing background scroll.",
+    "keywords": ["modal", "accessibility", "a11y", "focus management"]
+  }
+]

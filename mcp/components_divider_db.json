@@ -1,0 +1,12 @@
+[
+  {
+    "topic": "Divider Usage",
+    "content": "A `Divider` is a component that separates content. It can be horizontal (default) or vertical.",
+    "keywords": ["divider", "usage", "separator", "horizontal", "vertical"]
+  },
+  {
+    "topic": "Divider Accessibility",
+    "content": "The Divider has a `separator` role for accessibility and supports both horizontal and vertical orientations.",
+    "keywords": ["divider", "accessibility", "a11y", "separator"]
+  }
+]

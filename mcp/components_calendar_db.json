@@ -1,0 +1,37 @@
+[
+  {
+    "topic": "Calendar Usage",
+    "content": "A Calendar component allows users to select a date. It can be used as a controlled component (with `value` and `onChange`) or an uncontrolled component (with `defaultValue`). Date values are handled using the `@internationalized/date` package.",
+    "keywords": ["calendar", "usage", "date picker", "controlled", "uncontrolled"]
+  },
+  {
+    "topic": "Calendar Date Restrictions",
+    "content": "You can restrict selectable dates using `minValue` and `maxValue` to define a range. The `isDateUnavailable` prop can be used to disable specific dates, such as weekends.",
+    "keywords": ["calendar", "date restriction", "minvalue", "maxvalue", "isdateunavailable", "disabled dates"]
+  },
+  {
+    "topic": "Calendar Navigation and View",
+    "content": "The Calendar supports month and year pickers (`showMonthAndYearPickers`), displaying multiple months (`visibleMonths`), and customizing the first day of the week (`firstDayOfWeek`).",
+    "keywords": ["calendar", "navigation", "month picker", "year picker", "visible months"]
+  },
+  {
+    "topic": "Calendar Validation",
+    "content": "If a selected date is invalid based on application logic, you can set the `isInvalid` prop. An `errorMessage` can also be provided to guide the user.",
+    "keywords": ["calendar", "validation", "isinvalid", "errormessage", "invalid date"]
+  },
+  {
+    "topic": "Calendar Internationalization",
+    "content": "The Calendar component supports 13 different calendar systems (e.g., Gregorian, Islamic, Hebrew) and automatically displays the correct system based on the user's locale, which can be set in the `Provider`.",
+    "keywords": ["calendar", "internationalization", "i18n", "locale", "calendar system"]
+  },
+  {
+    "topic": "Calendar Slots",
+    "content": "The Calendar has many stylable slots, including `base`, `header`, `title`, `grid`, `cell`, `cellButton`, `prevButton`, and `nextButton` for extensive customization.",
+    "keywords": ["calendar", "slots", "classnames", "style slots"]
+  },
+  {
+    "topic": "Calendar Accessibility",
+    "content": "The Calendar is fully accessible, with keyboard navigation for date cells, localized screen reader announcements, and proper ARIA attributes for states like selected, disabled, and invalid.",
+    "keywords": ["calendar", "accessibility", "a11y", "keyboard navigation", "aria"]
+  }
+]

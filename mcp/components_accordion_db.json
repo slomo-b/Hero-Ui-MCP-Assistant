@@ -1,0 +1,37 @@
+[
+  {
+    "topic": "Accordion Usage",
+    "content": "The Accordion component displays a list of items that can be expanded or collapsed. It is built using the `Accordion` and `AccordionItem` components. Key features include adding subtitles, expanding multiple items (`selectionMode=\"multiple\"`), and a compact style (`isCompact`).",
+    "keywords": ["accordion", "usage", "multiple", "compact", "subtitle"]
+  },
+  {
+    "topic": "Accordion Variants",
+    "content": "The Accordion has four style variants: `light` (default), `shadow`, `bordered`, and `splitted`.",
+    "keywords": ["accordion", "variants", "style", "shadow", "bordered", "splitted"]
+  },
+  {
+    "topic": "Accordion Features",
+    "content": "Accordions can have default expanded items (`defaultExpandedKeys`), disabled items (`disabledKeys`), and custom start content (`startContent`). The open/close indicator can also be customized or hidden.",
+    "keywords": ["accordion", "features", "default expanded", "disabled", "indicator", "start content"]
+  },
+  {
+    "topic": "Accordion Controlled State",
+    "content": "Accordion is a controlled component. To manage its state, you need to control the `selectedKeys` prop and handle the `onSelectionChange` event.",
+    "keywords": ["accordion", "controlled", "state", "selectedKeys", "onSelectionChange"]
+  },
+  {
+    "topic": "AccordionItem Slots",
+    "content": "The AccordionItem has many stylable parts (slots), including: `base`, `heading`, `trigger`, `title`, `subtitle`, `indicator`, and `content`.",
+    "keywords": ["accordion", "slots", "classnames", "style slots", "accordionitem"]
+  },
+  {
+    "topic": "Accordion Accessibility",
+    "content": "Accordion supports full keyboard navigation (Arrow keys, Home/End) and uses appropriate ARIA attributes like `aria-expanded` and `aria-disabled` for screen readers.",
+    "keywords": ["accordion", "accessibility", "a11y", "keyboard navigation", "aria"]
+  },
+  {
+    "topic": "Accordion API Props",
+    "content": "Key props for the Accordion component include `variant`, `selectionMode`, `isCompact`, `disabledKeys`, and `itemClasses`. For AccordionItem, key props are `title`, `subtitle`, and `indicator`.",
+    "keywords": ["accordion", "api", "props", "properties"]
+  }
+]

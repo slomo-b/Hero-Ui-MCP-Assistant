@@ -1,0 +1,22 @@
+[
+  {
+    "topic": "Provider for Routing (navigate & useHref)",
+    "content": "The `HeroUIProvider` accepts a `navigate` function and a `useHref` function to integrate with client-side routers. This ensures components like `Link` and `Tabs` use your app's routing instead of native browser navigation.",
+    "keywords": ["provider", "herouiprovider", "routing", "navigate", "usehref"]
+  },
+  {
+    "topic": "Provider for Internationalization (locale & createCalendar)",
+    "content": "You can set the global `locale` for all components (e.g., 'es-ES'). To optimize bundle size, the `createCalendar` prop allows you to provide a subset of calendar systems your app supports.",
+    "keywords": ["provider", "herouiprovider", "internationalization", "i18n", "locale", "calendar"]
+  },
+  {
+    "topic": "Provider for Global Defaults",
+    "content": "The Provider can set app-wide defaults for `labelPlacement`, `spinnerVariant`, and `validationBehavior` ('native' or 'aria').",
+    "keywords": ["provider", "herouiprovider", "defaults", "global config", "labelPlacement", "validationBehavior"]
+  },
+  {
+    "topic": "Provider for Animations",
+    "content": "Animations can be controlled globally. `disableAnimation` turns off CSS animations, `disableRipple` removes the ripple effect, and `reducedMotion` respects user's OS-level motion preferences.",
+    "keywords": ["provider", "herouiprovider", "animations", "disableAnimation", "disableRipple", "reducedMotion"]
+  }
+]

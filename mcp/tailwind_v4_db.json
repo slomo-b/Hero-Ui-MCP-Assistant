@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "Tailwind v4 Migration Steps",
+    "content": "First, follow the official Tailwind v4 upgrade guide. Then, upgrade your HeroUI version using your package manager (e.g., `pnpm up @heroui/react`).",
+    "keywords": ["tailwind v4", "migration", "upgrade", "steps"]
+  },
+  {
+    "topic": "Tailwind v4 CSS Setup (No Config)",
+    "content": "Tailwind v4 uses a CSS-first approach where `tailwind.config.js` is not required. You need to create a `hero.ts` file to export the heroui plugin and update your main CSS file to import Tailwind's CSS files.",
+    "keywords": ["tailwind v4", "no config", "css-first", "hero.ts", "css import"]
+  },
+  {
+    "topic": "Tailwind v4 Setup (With Config)",
+    "content": "For backward compatibility, `tailwind.config.js` is still supported. You can explicitly load it in your configuration if you need to keep it.",
+    "keywords": ["tailwind v4", "with config", "tailwind.config.js", "backward compatibility"]
+  },
+  {
+    "topic": "Tailwind v4 PostCSS Configuration",
+    "content": "In v3, `tailwindcss` was a PostCSS plugin. In v4, this is now in the `@tailwindcss/postcss` package. `autoprefixer` is no longer required as prefixing is handled automatically.",
+    "keywords": ["tailwind v4", "postcss", "autoprefixer", "@tailwindcss/postcss"]
+  },
+  {
+    "topic": "Tailwind v4 Vite Configuration",
+    "content": "For Vite projects, you need to update your `vite.config.ts` to use the new `@tailwindcss/vite` plugin instead of the old PostCSS setup.",
+    "keywords": ["tailwind v4", "vite", "vite.config.ts", "@tailwindcss/vite"]
+  },
+  {
+    "topic": "Verification and Help",
+    "content": "After migrating, verify that styles are applied correctly and the build process completes without errors. If you need help, join the Discord community or open an issue on GitHub.",
+    "keywords": ["tailwind v4", "verify", "help", "discord", "github", "issues"]
+  }
+]
